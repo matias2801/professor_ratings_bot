@@ -72,8 +72,8 @@ class ProfessorBot(webdriver.Chrome):
         ).get_attribute('innerHTML')
 
         # fix this later to allow for 3-digit numbers
-        match = re.findall("[0-9][0-9][0-9][0-9]", innerHTML)
-        num = match[0]
+        match = re.findall('[^\\D\\s]', innerHTML)
+        num = int(''.join(match))
         print(num)
         see_more = self.find_element(
             By.CSS_SELECTOR,
