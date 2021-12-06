@@ -1,0 +1,579 @@
++---------------------------+--------+--------------------------------------+
+|       Professor Name      | Rating |               Subject                |
++---------------------------+--------+--------------------------------------+
+|        Kyle   Bates       |  3.8   |             Engineering              |
+|       Marc   Hauser       |  4.2   |              Psychology              |
+|      Melissa   Barry      |  3.8   |              Philosophy              |
+|       Gerald   Sacks      |  3.9   |             Mathematics              |
+|     Warren   Goldfarb     |  4.5   |              Philosophy              |
+|     Alan   Dershowitz     |  3.4   |                 Law                  |
+|     Kathleen   Coleman    |  4.6   |              Languages               |
+|        Rob   Austin       |  4.6   |               Business               |
+|        Anne Monius        |  4.4   |               Theology               |
+|      Catherine Corman     |  3.9   |               History                |
+|       Charles Ducey       |  2.3   |              Education               |
+|      Marjorie Garber      |  3.4   |               English                |
+|      Maryellen Ruvolo     |  3.5   |               Biology                |
+|       Lawrence Buell      |  3.4   |               English                |
+|       David Carrasco      |  4.9   |               Theology               |
+|    Christine Korsgaard    |  3.6   |              Philosophy              |
+|       Daniel Fisher       |  1.6   |               Physics                |
+|       Elaine Scarry       |  3.4   |               English                |
+|        Kath Weston        |  3.8   |           Women's Studies            |
+|        Leo Damrosch       |  4.6   |               English                |
+|       Cynthia Friend      |  2.3   |              Chemistry               |
+|      Harvey Mansfield     |  4.4   |          Political Science           |
+|       Helen Vendler       |  4.2   |               English                |
+|     Stephen Greenblatt    |  3.2   |               English                |
+|     Sacvan Bercovitch     |  4.5   |               English                |
+|        Homi K Bhaba       |  2.4   |               English                |
+|      Daniel Donoghue      |  4.7   |               English                |
+|         Ed Glaeser        |  2.5   |              Economics               |
+|       Gordon Teskey       |  4.4   |               English                |
+|       Glenda Carpio       |  5.0   |               English                |
+|      Charles Henebry      |  2.8   |               Writing                |
+|       Eric Jacobsen       |  4.9   |              Chemistry               |
+|      Daniel Sturgeon      |  5.0   |             Anthropology             |
+|       Richard Moran       |  3.5   |              Philosophy              |
+|         Sue Schopf        |  3.9   |               English                |
+|         Sunney Xie        |  2.3   |              Chemistry               |
+|        Harry Lewis        |  2.8   |           Computer Science           |
+|        Jan Feldman        |  3.6   |          Political Science           |
+|      Ellsworth Fersch     |  4.5   |              Psychology              |
+|      Steven Levitsky      |  4.7   |          Political Science           |
+|    Emmanuel Akyeampong    |  3.8   |               History                |
+|       Theo Theoharis      |  4.6   |              Humanities              |
+|        Gregory Nagy       |  4.3   |               Classics               |
+|       Suzanne Young       |  2.5   |              Chemistry               |
+|      Michael Chisick      |  0.0   |               History                |
+|        John Lenger        |  3.9   |              Journalism              |
+|         Meg Jacobs        |  0.0   |               History                |
+|        Brian Little       |  5.0   |              Psychology              |
+|        David Brody        |  0.0   |              Economics               |
+|     Christopher Krebs     |  3.8   |               Classics               |
+|        Allan Brandt       |  3.8   |               Medicine               |
+|         David Long        |  0.0   |               English                |
+|        Jeanne Chall       |  2.0   |              Psychology              |
+|        Jamil Mahuad       |  2.3   |                 Law                  |
+|       Anna Henchman       |  5.0   |               English                |
+|       Richard Posner      |  0.0   |                 Law                  |
+|       Wynn Schwartz       |  3.4   |              Psychology              |
+|        Andrew Lobb        |  3.8   |             Mathematics              |
+|         Gary Urton        |  4.3   |             Anthropology             |
+|        James Doyle        |  0.0   |              Languages               |
+|      Chun Leung Chee      |  0.0   |               Physics                |
+|       Richard Losick      |  3.0   |               Biology                |
+|      Daniel Gutierrez     |  0.0   |               History                |
+|        Louis Menand       |  3.9   |               English                |
+|      George Blaustein     |  3.8   |               English                |
+|        Thomas Ptak        |  0.0   |               Medicine               |
+|      Martha Schwartz      |  0.0   |             Architecture             |
+|     Jens Meierhenrich     |  2.7   |              Government              |
+|        Dale Salwak        |  5.0   |               English                |
+|     Trygve Throntveit     |  3.5   |               History                |
+|     Afsaneh Najmabadi     |  3.8   |               History                |
+|       David Roxburgh      |  4.3   |             Art History              |
+|             Yau           |  1.3   |             Mathematics              |
+|        Paul Bamberg       |  3.6   |             Mathematics              |
+|       Gregory Mankiw      |  3.5   |              Economics               |
+|       Jo Ann Hackett      |  5.0   |               Religion               |
+|      John Huehnergard     |  4.8   |              Languages               |
+|        Amartya Sen        |  5.0   |              Education               |
+|       John Hamilton       |  4.6   |              Literature              |
+|       John Spengler       |  3.5   |        Environmental Science         |
+|      Terrell Tolbert      |  4.8   |              Education               |
+|       Robert Langdon      |  4.2   |               Religion               |
+|        Haley Joshi        |  4.3   |               Medicine               |
+|       Francis Irele       |  3.7   |              Literature              |
+|       Joe Wotbrowski      |  4.0   |             Agriculture              |
+|    Jiffy Tolucouskipry    |  0.0   |           Women's Studies            |
+|        Janet Halley       |  0.0   |                 Law                  |
+|        Ron Butzlaff       |  0.0   |              Psychology              |
+|       Stephanie Sogg      |  2.6   |              Psychology              |
+|       John Stauffer       |  3.8   |               English                |
+|        Noah Kyking        |  0.0   |             Art History              |
+|       Dodge Fernald       |  4.2   |              Psychology              |
+|       Andy Engelward      |  4.8   |             Mathematics              |
+|        Mark Zender        |  4.6   |             Anthropology             |
+|       Andrew Thomas       |  4.7   |              Statistics              |
+|       Benjamin Smith      |  0.0   |              Languages               |
+|      Mark Kishlansky      |  4.8   |               History                |
+|         Alex Cates        |  0.0   |              Chemistry               |
+|       Parimal Patil       |  4.8   |               Religion               |
+|       Gernot Wagner       |  0.0   |          Political Science           |
+|       Allen Counter       |  3.8   |               Medicine               |
+|        Scott Zigler       |  5.0   |               Theater                |
+|       Amin Serehali       |  5.0   |             Mathematics              |
+|       Richard Thomas      |  4.4   |               Classics               |
+|        William Fash       |  3.5   |             Anthropology             |
+|          H T Kung         |  2.8   |           Computer Science           |
+|          Jason UR         |  3.7   |             Anthropology             |
+|        Eric Heller        |  1.9   |               Physics                |
+|      Diane Rosenfeld      |  0.0   |                 Law                  |
+|        Vahid Tarokh       |  2.9   |             Engineering              |
+|       Steven Gortler      |  5.0   |           Computer Science           |
+|         Matt Smith        |  0.0   |                 Law                  |
+|        John Stilgoe       |  4.6   |        Environmental Studies         |
+|      Alexander Marion     |  0.0   |               History                |
+|       Carole Hooven       |  3.3   |             Anthropology             |
+|        Jeremy Wolfe       |  5.0   |              Psychology              |
+|   Angela VierlingClaasen  |  5.0   |             Mathematics              |
+|       Charles Liber       |  5.0   |              Chemistry               |
+|       Norman Ramsey       |  0.0   |           Computer Science           |
+|        Wendy Mendes       |  4.7   |              Psychology              |
+|        Aaron Mauck        |  4.0   |               History                |
+|       Malinda Lowery      |  3.4   |               History                |
+|         Zoe Trodd         |  3.7   |               English                |
+|         Donhee Ham        |  5.0   |             Engineering              |
+|        Eileen Chow        |  0.0   |              Literature              |
+|       Lisa T Brooks       |  3.7   |              Literature              |
+|    Carmen ArnoldBiucchi   |  3.0   |               Classics               |
+|       David Armitage      |  1.0   |               History                |
+|       Alice Jardine       |  3.5   |     Womens &amp; Gender Studies      |
+|        Jason Kober        |  2.7   |              Accounting              |
+|      Michael J Puett      |  4.8   |               History                |
+|       Paul Garfinkle      |  3.5   |           Women's Studies            |
+|      Clifford Taubes      |  4.5   |             Mathematics              |
+|         Lubos Motl        |  0.0   |               Physics                |
+|      Eric Rentschler      |  3.3   |                 Film                 |
+|      Joshua Fineberg      |  0.0   |                Music                 |
+|         Elisa New         |  4.7   |               English                |
+|       James Talcott       |  0.0   |               Medicine               |
+|         Mike Jones        |  4.6   |               Theater                |
+|     Henrietta Harrison    |  3.0   |               History                |
+|   Laurel Thatcher Ulrich  |  5.0   |               History                |
+|         Samik Basu        |  3.0   |             Mathematics              |
+|        Hongkun Park       |  3.3   |              Chemistry               |
+|         Eric Lemay        |  5.0   |               Writing                |
+|       James Hankins       |  2.5   |               History                |
+|       Jason Mitchell      |  4.4   |              Psychology              |
+|    CC LambergKarlovsky    |  0.0   |             Anthropology             |
+|         Matt Welsh        |  0.0   |           Computer Science           |
+|         Chris Lang        |  0.0   |               Theater                |
+|       Noah McCormack      |  0.0   |               History                |
+|       Marlon Kuzmick      |  4.5   |               Writing                |
+|     Mark Passacantanda    |  0.0   |               Finance                |
+|        Ralph Selig        |  4.6   |           Computer Science           |
+|     Christopher Green     |  0.0   |              Journalism              |
+|       Todd Farchione      |  4.3   |              Psychology              |
+|        Ali Tentawe        |  0.0   |           Women's Studies            |
+|      Barbara Lewalski     |  0.0   |               English                |
+|        Binh Nhu Ngo       |  0.0   |  Foreign Languages &amp; Literature  |
+|      Charles Langmuir     |  1.5   |               Geology                |
+|       Jeffrey Miron       |  2.0   |              Economics               |
+|       Carli Gunnels       |  0.0   |               Theater                |
+|   Cornelius Atyronetrius  |  0.0   |             Linguistics              |
+|        Robert Bates       |  2.3   |          Political Science           |
+|         David Liu         |  4.7   |              Chemistry               |
+|          Lene Hau         |  0.0   |               Physics                |
+|     Joseph Blitzstein     |  4.8   |              Statistics              |
+| Gretchen GoodbodyGringley |  0.0   |               Biology                |
+|        James Medoff       |  1.0   |              Economics               |
+|      Anthony Cashman      |  2.6   |               Writing                |
+|        David Mooney       |  3.0   |             Engineering              |
+|   Leonard Van Der Kuijp   |  0.0   |        International Studies         |
+|        Stephen Burt       |  2.7   |               English                |
+|     Theodore MacDonald    |  3.8   |             Anthropology             |
+|      Claus Acastelani     |  4.8   |             Anthropology             |
+|       Oliver Simons       |  4.0   |  Foreign Languages &amp; Literature  |
+|      Natacha Exantus      |  0.0   |              Philosophy              |
+|       Sri Mukherjee       |  4.8   |               Writing                |
+|        Alex Craiger       |  0.0   |                Design                |
+|       Edwin Cranston      |  0.0   |               Japanese               |
+|      Heather Fielding     |  2.8   |               English                |
+|       Logan McCarty       |  4.4   |              Chemistry               |
+|      Benjamin Tipping     |  1.8   |                Latin                 |
+|       Richard Cooper      |  0.0   |              Economics               |
+|      Alan Saghatelian     |  5.0   |              Chemistry               |
+|        Linda Bilmes       |  4.8   |              Government              |
+|       Larry Summers       |  0.0   |              Economics               |
+|         Liz Cohen         |  0.0   |               History                |
+|       Arnold Howitt       |  4.8   |              Government              |
+|       Edwardo Smith       |  0.0   |             Hospitality              |
+|         GuYeon Wei        |  0.0   |             Engineering              |
+|     Melissa McCormick     |  3.8   |             Art History              |
+|       George Alvarez      |  4.3   |              Psychology              |
+|         Ken Kamrin        |  0.0   |             Engineering              |
+|       Manuel Sprung       |  2.5   |              Psychology              |
+|       Andrew Nevins       |  1.0   |             Linguistics              |
+|        Kevin Nugent       |  0.0   |              Psychology              |
+|      Ursula Lindqvist     |  5.0   |              Languages               |
+|        Ahmed Ragab        |  2.5   |               History                |
+|        Rola Shaheen       |  0.0   |               Medicine               |
+|       Niall Ferguson      |  4.5   |               History                |
+|    Joanne Van Der Woude   |  0.0   |               English                |
+|       Harold Dunner       |  0.0   |              Government              |
+|       Harold Johnson      |  0.0   |              Government              |
+|      Brett Flehinger      |  1.2   |               Writing                |
+|        Daniel Crist       |  0.0   |                Music                 |
+|      Jason Beckfield      |  0.0   |              Sociology               |
+|         Mac Melto         |  0.0   |           Women's Studies            |
+|     Robert Munndermann    |  0.0   |            Biostatistics             |
+|       Bence Olveczky      |  5.0   |               Biology                |
+|      Dorothy Holinger     |  1.0   |              Psychology              |
+|      Edoardo Airoldi      |  4.2   |              Statistics              |
+|        Craig Smith        |  5.0   |              Psychology              |
+|        Klein Voleh        |  2.0   |             Mathematics              |
+|      William Anderson     |  3.8   |               Biology                |
+|     Zachary Sifuentes     |  5.0   |               Writing                |
+|     Stefan BirdPollan     |  1.0   |              Philosophy              |
+|        AmyRose Deal       |  0.0   |             Linguistics              |
+|      Gulru Necipoglu      |  0.0   |             Art History              |
+|        Guy Leavitt        |  0.0   |              Languages               |
+|        Lisa Parkes        |  0.0   |              Languages               |
+|     Sebastian Mazzuca     |  4.8   |              Government              |
+|         Erin OShea        |  0.0   |               Biology                |
+|      Melissa Grachan      |  5.0   |              Chemistry               |
+|     Alexander Keyssar     |  5.0   |               History                |
+|        Fulano DTal        |  0.0   |           Computer Science           |
+|      Philippe Aghion      |  5.0   |              Economics               |
+|    Elizabeth Greenspan    |  0.0   |               English                |
+|      Joseph Chevarley     |  0.0   |              Management              |
+|        Bassey Irele       |  0.0   |            Not Specified             |
+|      Richard Tarrant      |  4.0   |               Classics               |
+|       Xander Fisher       |  0.0   |               Japanese               |
+|     Lauren Conoscenti     |  3.0   |              Psychology              |
+|       Dante Spetter       |  1.0   |              Psychology              |
+|        Chuck Trent        |  4.3   |              Psychology              |
+|      Teresa Chisholm      |  5.0   |         Information Science          |
+|      Matthew Liebmann     |  3.0   |             Anthropology             |
+|         Rowan Flad        |  0.0   |             Anthropology             |
+|      Michael Herzfeld     |  4.0   |             Anthropology             |
+|        Mary Steedly       |  0.0   |             Anthropology             |
+|        Smita Lahiri       |  0.0   |             Anthropology             |
+|       Matthew Platt       |  3.5   |          Political Science           |
+|     Roilos Panagiotis     |  0.0   |               Classics               |
+|       Samuel Goldman      |  5.0   | Education &amp; Academic Advancement |
+|       Jack McCulloch      |  5.0   |           Computer Science           |
+|       Ruth Lingford       |  0.0   |              Animation               |
+|        John Dowling       |  1.0   |         Arts &amp; Sciences          |
+|        Nafez Nazzal       |  5.0   | Education &amp; Academic Advancement |
+|        Daniel Wintz       |  5.0   |               Physics                |
+|       Steven Harris       |  0.0   |              Government              |
+|        Andrew Berry       |  5.0   |               Biology                |
+|           MI JJ           |  0.0   |               English                |
+|        Alex Csiszar       |  0.0   |            Social Science            |
+|      Richard Hornbeck     |  0.0   |              Economics               |
+|        Tracy Stamos       |  0.0   |        Environmental Studies         |
+|        Beth Simmons       |  5.0   |          Political Science           |
+|        Martha Diaz        |  4.5   |              Languages               |
+|        Maria Tatar        |  0.0   |         Arts &amp; Sciences          |
+|       Emily Isenberg      |  3.5   |         Arts &amp; Sciences          |
+|       Emily Shelton       |  0.0   |               English                |
+|       Aliza Watters       |  0.0   |               Writing                |
+|       Natesh Pillai       |  0.0   |              Statistics              |
+|       Baber Johansen      |  0.0   |               Religion               |
+|        David Ropeik       |  1.5   |        Environmental Studies         |
+|      Mark Zukurburian     |  5.0   |          Physical Education          |
+|          Tam Tai          |  0.0   |               History                |
+|       Robert Pojasek      |  2.3   |        Environmental Studies         |
+|      Alfred Guzzetti      |  0.0   |                 Film                 |
+|    Sayyed Mohsen Fatemi   |  4.1   |              Psychology              |
+|       Michael Beard       |  5.0   |              Philosophy              |
+|       Olivia Newman       |  5.0   |               Writing                |
+|       David Laibson       |  4.9   |              Economics               |
+|         Erma Gerd         |  5.0   |               History                |
+|        James Huang        |  0.0   |            Not Specified             |
+|     Alexander Nikolaev    |  5.0   |               Classics               |
+|     Abdulelah Alnoaim     |  5.0   |             Engineering              |
+|       Jeffrey Picel       |  0.0   |              Economics               |
+|      Dennis Gaitsgory     |  5.0   |             Mathematics              |
+|     Rebecca Summerhays    |  4.9   |               Writing                |
+|          Lee Chan         |  4.5   |             Mathematics              |
+|     Charles Kingsfield    |  0.0   |                 Law                  |
+|          Van Tran         |  5.0   |               Finance                |
+|       Cherry Murray       |  0.0   |             Engineering              |
+|    Christopher Phillips   |  0.0   |               Science                |
+|        Osnat Netzer       |  0.0   |                Music                 |
+|         Doug Lavin        |  5.0   |              Philosophy              |
+|        Jill Lepore        |  0.0   |               History                |
+|       Ryan Spoering       |  0.0   |              Chemistry               |
+|        Irit Aharony       |  5.0   |              Languages               |
+|       Richard Palais      |  0.0   |             Mathematics              |
+|          Max Kasy         |  0.0   |              Economics               |
+|          Cory Way         |  0.0   |              Sociology               |
+|       Daniel Jackson      |  5.0   |             Anthropology             |
+|     Timothy McLaughlin    |  3.5   |           Computer Science           |
+|       Hauwa Ibrahim       |  0.0   |                 Law                  |
+|     Robert Woollacott     |  5.0   |               Biology                |
+| Maria de la Paz Fernandez |  0.0   |               Medicine               |
+|       Michael Parzen      |  4.0   |              Statistics              |
+|       Peter  Girguis      |  4.2   |               Biology                |
+|       Andrew Ze Wang      |  4.4   |              Psychology              |
+|        James Guseh        |  0.0   |              Economics               |
+|        Ben Edelman        |  0.0   |               Business               |
+|        Mark Richard       |  3.0   |              Philosophy              |
+|        Mary Brinton       |  3.0   |              Sociology               |
+|     Dr Anwar Siddiqui     |  4.5   |               Medicine               |
+|         Cai Chang         |  4.8   |               History                |
+|       Sudio Sudarsan      |  5.0   |              Marketing               |
+|      Bulent Kiziltan      |  4.8   |            Arts  Sciences            |
+|        Ornela Gjata       |  4.8   |               Biology                |
+|      Sbob Squarepants     |  3.5   |               Biology                |
+|      Vassiliki Rapti      |  5.0   |               Classics               |
+|     Janina Matuszeski     |  2.5   |            Social Science            |
+|     Natalia Pokrovsky     |  0.0   |    Foreign Languages  Literature     |
+|      Matthew Gilbert      |  5.0   |              Marketing               |
+|        Tali Zechory       |  4.0   |    Foreign Languages  Literature     |
+|       Philip Fisher       |  0.0   |               English                |
+|       Michael Porter      |  0.0   |              Economics               |
+|        Sarfraz Khan       |  0.0   |               Medicine               |
+|     Federica  Pedriali    |  5.0   |        International Studies         |
+|       Richard Pipes       |  0.0   |               History                |
+|      Hercules Saraiva     |  0.0   |          Academic Services           |
+|         Rowena He         |  0.0   |              Government              |
+|        Aaron Thind        |  5.0   |               Medicine               |
+|        Shahab Ahmed       |  0.0   |               Religion               |
+|        Shahab Ahmed       |  0.0   |         South Asian Studies          |
+|         Tey Meadow        |  4.5   |              Sociology               |
+|       Hussain Jffery      |  5.0   |                 Law                  |
+|       Yaiza Canzani       |  0.0   |             Mathematics              |
+|        jacob lurie        |  0.0   |             Mathematics              |
+|         Chad Chulo        |  0.0   |           Women's Studies            |
+|        James Herron       |  4.0   |             Anthropology             |
+|      Kraemer Clayton      |  5.0   |             Social Work              |
+|       Jacob Barandes      |  5.0   |               Physics                |
+|       Kate Van Orden      |  0.0   |                Music                 |
+|    Dolrudee Jumlongras    |  0.0   |               Biology                |
+|     Aravinthan Samuel     |  0.0   |               Physics                |
+|        Eugene Wang        |  0.0   |             Art History              |
+|       Verena Kaynig       |  0.0   |             Engineering              |
+|      Taylor Stoermer      |  3.5   |               History                |
+|      Robert Sackstein     |  5.0   |               Science                |
+|       James Mickens       |  5.0   |           Computer Science           |
+|       Joseph Koerner      |  0.0   |             Art History              |
+|       Susan Lanzoni       |  2.8   |               History                |
+|        Austin Hart        |  0.0   |           Computer Science           |
+|        Anne Manning       |  5.0   |               Business               |
+|      Susan Robertson      |  4.6   |               Business               |
+|        Kevin Parker       |  0.0   |             Engineering              |
+|       Megan Panzano       |  0.0   |                Design                |
+|       Ryan Wilkinson      |  0.0   |               Writing                |
+|     Pavlos Protopapas     |  2.3   |           Computer Science           |
+|       Nicole Padilla      |  0.0   |               Nursing                |
+|        David Brooks       |  0.0   |           Computer Science           |
+|        Brian Wecht        |  0.0   |               Physics                |
+|      Tristan Collins      |  0.0   |             Mathematics              |
+|      Justin Campbell      |  0.0   |             Mathematics              |
+|        Ahmed Nasser       |  0.0   |               Medicine               |
+|     Jeffrey Hamburger     |  0.0   |             Art History              |
+|       Jarvis Givens       |  0.0   |              Education               |
+|         John Cain         |  0.0   |             Mathematics              |
+|         Omar Haque        |  5.0   |               Medicine               |
+|      Annette Lemieux      |  0.0   |              Fine Arts               |
+|     Diana Acosta Navas    |  0.0   |              Philosophy              |
+|        Conor Walsh        |  0.0   |             Engineering              |
+|      Susan Steinberg      |  5.0   |               Writing                |
+|      Brendan McLellan     |  5.0   |             Mathematics              |
+|       Walid Darwish       |  5.0   |             Engineering              |
+|         Ken Smith         |  0.0   |              Accounting              |
+|       Subir Sachdev       |  0.0   |               Physics                |
+|        Richard Wolf       |  0.0   |                Music                 |
+|         Yan Zhang         |  0.0   |             Mathematics              |
+|        Scott Carter       |  0.0   |            Biostatistics             |
+|        Andrew Wong        |  3.0   |             Engineering              |
+|       Sharon Kivenko      |  0.0   |             Anthropology             |
+|     Alfonso Caramazza     |  0.0   |               Biology                |
+|       Dustin Tingley      |  2.0   |              Government              |
+|       Jennifer Doody      |  0.0   |            Communication             |
+|       Julia Tejblum       |  0.0   |        Comparative Literature        |
+|        Muhammet Bas       |  5.0   |              Government              |
+|        Saurov Syed        |  0.0   |             Linguistics              |
+|       George Soroka       |  5.0   |        International Studies         |
+|       Vincent Brown       |  0.0   |               History                |
+|        Rand Ghayad        |  5.0   |            Social Science            |
+|       Wayne Shapiro       |  0.0   |             Art History              |
+|         Andy Tran         |  0.0   |           Women's Studies            |
+|     Shigehisa Kuriyama    |  0.0   |               Japanese               |
+|        Josh Hantman       |  0.0   |           Women's Studies            |
+|    Giovanni Parmigiani    |  0.0   |            Biostatistics             |
+|     Terence Capellini     |  2.0   |               Biology                |
+|        Thomas Hayes       |  5.0   |               Physics                |
+|     Jason Silverstein     |  5.0   |               Medicine               |
+|       Sophia Roosth       |  5.0   |               History                |
+|       Laurence Ralph      |  0.0   |             Anthropology             |
+|        Paul Farmer        |  0.0   |               Medicine               |
+|       Fiery Cushman       |  0.0   |              Psychology              |
+|        Daniel Smith       |  3.0   |          Political Science           |
+|      Miguel Arguelles     |  0.0   |               English                |
+|      Prem Pushpakaran     |  0.0   |               Biology                |
+|        Isaac Rivera       |  5.0   |               Biology                |
+|     Karen AlemanBravo     |  0.0   |             Engineering              |
+|    Sendhil Mullainathan   |  0.0   |              Economics               |
+|   Anouska Bhattacharyya   |  0.0   |     Womens &amp; Gender Studies      |
+|      Zeinab Hajjarian     |  0.0   |               Medicine               |
+|        Elinor Amit        |  1.0   |              Psychology              |
+|       Jessica Harrop      |  0.0   |              Chemistry               |
+|        Daniel Baker       |  5.0   |               Biology                |
+|        Jason Yeung        |  0.0   |           Women's Studies            |
+|        John Quelch        |  0.0   |               Business               |
+|        Gissel Haitz       |  4.0   |               Japanese               |
+|       Richard Marin       |  1.0   |            Social Science            |
+|        Jason Bourne       |  4.0   |        International Studies         |
+|      Saleh Alhussain      |  5.0   |             Engineering              |
+|      Matthew Kaliner      |  0.0   |              Sociology               |
+|       Fernando Saenz      |  0.0   |               Medicine               |
+|      Andrew Garfinkel     |  0.0   |               English                |
+|       Payam Mohseni       |  5.0   |              Government              |
+|      Gustavo Vazquez      |  5.0   |               Medicine               |
+|         Matt Bolt         |  0.0   |           Criminal Justice           |
+|    Cordelia Ancolaphaga   |  5.0   |              Philosophy              |
+|     Edward PaceSchott     |  0.0   |              Psychology              |
+|     Matthew Blackwell     |  0.0   |              Government              |
+|      Josiah Blackmore     |  0.0   |   Foreign Languages amp Literature   |
+|       Tommie Shelby       |  0.0   |              Philosophy              |
+|        De Hua Huang       |  5.0   |               Japanese               |
+|       Jacob Olupona       |  0.0   |               Religion               |
+|        Matthew Cole       |  0.0   |               Writing                |
+|        Selim Berker       |  1.0   |              Philosophy              |
+|       Joseph Henrich      |  0.0   |   Human &amp; Evolutionary Biology   |
+|   Aisha Beliso De Jesus   |  4.0   |               Religion               |
+|       Joseph Henrich      |  0.0   |    Human amp Evolutionary Biology    |
+|        Weihan Zhang       |  0.0   |               Physics                |
+|         Shengwu Li        |  0.0   |              Economics               |
+|       Marjorie Zohn       |  0.0   |              Management              |
+|        Indy Halpern       |  5.0   | Education &amp; Academic Advancement |
+|       Cameron Kainth      |  1.0   |           Criminal Justice           |
+|        Mikey Singh        |  5.0   |             Engineering              |
+|       N Drew Gagnon       |  0.0   |             Mathematics              |
+|      Nicholas Willis      |  0.0   |            Social Science            |
+|       Merlin Isanass      |  2.0   |           Criminal Justice           |
+|        Sunil Amrith       |  0.0   |               History                |
+|      Jennifer Thomas      |  0.0   |              Psychology              |
+|        Joe Vitriol        |  5.0   |              Psychology              |
+|        Judith Agudo       |  0.0   |               Biology                |
+|         Ryan Wentz        |  0.0   |             Mathematics              |
+|        Daniel Lima        |  0.0   |          Academic Services           |
+|      Bradley Coleman      |  0.0   |               Biology                |
+|       Marya Mtshali       |  0.0   |              Sociology               |
+|     Patrick Roundhill     |  5.0   |              Chemistry               |
+|        John Hancock       |  5.0   |              Government              |
+|        Keith Anello       |  0.0   |           Computer Science           |
+|       William Alford      |  0.0   |                 Law                  |
+|       Tina Zeimaran       |  5.0   |              Chemistry               |
+|        Emily Dolan        |  0.0   |                Music                 |
+|        John Harvey        |  0.0   |          Academic Services           |
+|      Cirrus Foroughi      |  0.0   |              Economics               |
+|          Eric Bag         |  0.0   |               English                |
+|        Aisha Jesus        |  0.0   |               Religion               |
+|       Peter Burgard       |  0.0   |              Languages               |
+|       Sujata Saunik       |  0.0   |         South Asian Studies          |
+|      Elliot Schneider     |  5.0   |               Physics                |
+|       Bingzhang Yang      |  0.0   |              Economics               |
+|      Thomas Remington     |  2.0   |              Government              |
+|      Yvonne Leisibach     |  0.0   |             Mathematics              |
+|         Mark Ellis        |  0.0   |              Management              |
+|       Ratmond Selcua      |  0.0   |             Linguistics              |
+|       Neel Mukherjee      |  0.0   |              Literature              |
+|        John Mugane        |  5.0   |  Foreign Languages &amp; Literature  |
+|       Stephen Blyth       |  0.0   |              Statistics              |
+|       Carol Steiker       |  0.0   |                 Law                  |
+|        Patrick Mair       |  5.0   |              Psychology              |
+|      Elhanan Helpman      |  0.0   |              Economics               |
+|           Yue Lu          |  0.0   |             Engineering              |
+|       Analia Tebaldi      |  0.0   |              Languages               |
+|     michael konieczny     |  0.0   |               Classics               |
+|     Nickerson Cammett     |  0.0   |          Arts amp Sciences           |
+|       Stephen Chong       |  0.0   |           Computer Science           |
+|    Claudia QuevedoWebb    |  0.0   |              Languages               |
+|         Tim Hoxha         |  5.0   |                 Law                  |
+|       Alexander Vega      |  0.0   |               Classics               |
+|      Flora Patterson      |  5.0   |            Health Science            |
+|       Yogi Schnauzer      |  5.0   |             Mathematics              |
+|         Kevin Mas         |  0.0   |               Business               |
+|           Kim Un          |  0.0   |      Womens amp Gender Studies       |
+|        Kevin Madore       |  0.0   |              Psychology              |
+|         Sandy Yuan        |  5.0   |               Physics                |
+|         david cox         |  0.0   |               Biology                |
+|      Peter Manuelian      |  5.0   |             Anthropology             |
+|         Dale Gons         |  0.0   |              Chemistry               |
+|       Jhonny Ordonez      |  0.0   |               Biology                |
+|        Scot Martin        |  0.0   |        Environmental Studies         |
+|       David Pressly       |  0.0   |              Philosophy              |
+|       Amelia Linsky       |  0.0   |  Foreign Languages &amp; Literature  |
+|      Haim Sompolinsky     |  0.0   |               Science                |
+|       Yvan Prkachin       |  0.0   |              Philosophy              |
+|      Leah Whittington     |  0.0   |               English                |
+|       Brad Marchand       |  1.0   |              Chemistry               |
+|        Sterling GZA       |  0.0   |            Communication             |
+|        Shan Parikh        |  0.0   |          Academic Services           |
+|        Gloria Ayee        |  5.0   |              Government              |
+|   Kabelo Witness Matlou   |  0.0   |           African Studies            |
+|       Laura Magnotti      |  5.0   |               Biology                |
+|      Asadullah Lodhi      |  0.0   |           African Studies            |
+|      Nicholas Beaver      |  0.0   |           African Studies            |
+|      Peter Kronheimer     |  4.6   |             Mathematics              |
+|        Alec Piggott       |  0.0   |            Health Science            |
+|        Emily Braley       |  0.0   |             Mathematics              |
+|       Michael Sandel      |  4.7   |          Political Science           |
+|        Thomas Kelly       |  0.0   |                Music                 |
+|       Andrew McMahon      |  5.0   |               Biology                |
+|       Jennifer Perry      |  0.0   |              Psychology              |
+|     Henry Louis Gates     |  1.6   |            Ethnic Studies            |
+|         John Nash         |  4.1   |             Mathematics              |
+|       Axel Nohturfft      |  2.2   |               Biology                |
+|      Melissa McDonald     |  3.8   |               English                |
+|     Robert Neugeboren     |  2.5   |              Economics               |
+|        Roger Porter       |  4.2   |          Political Science           |
+|     Lukas Villalpando     |  4.7   |           Women's Studies            |
+|     Karyn GunnetShoval    |  0.0   |              Psychology              |
+|       George Soroka       |  0.0   |              Government              |
+|        Maude Prune        |  0.0   |               Science                |
+|        Noam Elkies        |  3.4   |             Mathematics              |
+|    Michael Mitzenmacher   |  2.6   |           Computer Science           |
+|         Ali Asani         |  4.2   |                Design                |
+|       Niall Kirkwood      |  0.0   |               Writing                |
+|        Haden Guest        |  0.0   |                 Film                 |
+|       Gordon Harvey       |  2.5   |               English                |
+|         Bob Marley        |  0.0   |           Computer Science           |
+|         Faris Saah        |  5.0   |               Finance                |
+|        Ika Merendi        |  0.0   |           African Studies            |
+|         John Huth         |  5.0   |               Physics                |
+|        Anya Bassett       |  1.0   |            Social Science            |
+|       Jennifer Carr       |  2.1   |               Biology                |
+|        David Malan        |  4.5   |           Computer Science           |
+|       Jennifer Koch       |  0.0   |               Nursing                |
+|      Richard McNally      |  3.8   |              Psychology              |
+|       Shelley Carson      |  4.3   |              Psychology              |
+|       Rebecca Nesson      |  4.0   |           Computer Science           |
+|       Celestin Monga      |  0.0   |              Government              |
+|         Greg Tucci        |  4.5   |              Chemistry               |
+|       Prineha Narang      |  1.0   |             Engineering              |
+|       Michael Miner       |  4.9   |              Government              |
+|         Jeremy Rau        |  4.0   |            Communication             |
+|          Ned Hall         |  4.8   |              Philosophy              |
+|       Michelle Rosen      |  0.0   |             Engineering              |
+|       Naomi Stephen       |  2.9   |               Writing                |
+|      Carmine Gibaldi      |  0.0   |              Management              |
+|        Archon Fung        |  0.0   |              Government              |
+|     Tomas MairaLitran     |  0.0   |               Medicine               |
+|      Geraldine Grimm      |  4.8   |               Writing                |
+|        Oliver Knill       |  4.2   |             Mathematics              |
+|         Ryan Draft        |  3.5   |               Biology                |
+|       Michael Stein       |  0.0   |                 Law                  |
+|      Martin Feldstein     |  2.9   |              Economics               |
+|      Kresling Matthew     |  4.8   |               Writing                |
+|        Glenn Cohen        |  3.8   |                 Law                  |
+|        Garth Coombs       |  5.0   |              Psychology              |
+|       Michael Smith       |  3.5   |           Computer Science           |
+|    Petros Koumoutsakos    |  0.0   |             Engineering              |
+|       Sherwin Navai       |  5.0   |           Computer Science           |
+|       Steven Pinker       |  3.1   |              Psychology              |
+|         Peter Bol         |  4.0   |               History                |
+|     Ewa LajerBurcharth    |  0.0   |              Fine Arts               |
+|       Howard Georgi       |  3.9   |               Physics                |
+|     Evelina Tsoncheva     |  0.0   |               Physics                |
+|        Max Krasnow        |  3.5   |              Psychology              |
+|      Federico Capasso     |  5.0   |             Engineering              |
+|       Jelani Nelson       |  4.2   |           Computer Science           |
+|       Michael Flier       |  2.2   |              Languages               |
+|       Phillip Fisher      |  3.5   |               English                |
+|        Remo Airaldi       |  4.9   |               Theater                |
+|       Alex Hafliger       |  5.0   |            Communication             |
+|         Greg Sabin        |  4.7   |              Management              |
+|        Bruno Sergi        |  4.6   |          Political Science           |
+|       Mona Weissmark      |  4.8   |              Psychology              |
+|         Joe Harris        |  4.6   |             Mathematics              |
+|       Margo Seltzer       |  4.4   |           Computer Science           |
+|        Jill Hooley        |  1.8   |              Psychology              |
++---------------------------+--------+--------------------------------------+

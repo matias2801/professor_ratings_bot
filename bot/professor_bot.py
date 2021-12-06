@@ -7,15 +7,14 @@ from prettytable import PrettyTable
 from selenium.webdriver.common.keys import Keys
 
 
-
 class ProfessorBot(webdriver.Chrome):
     def __init__(self, teardown=False):
         self.teardown = teardown
         super(ProfessorBot, self).__init__()
-        self.implicitly_wait(30)
+        self.implicitly_wait(45)
         '''In an inherited subclass, a parent class can be referred to with the use of the super() function.
          The super function returns a temporary object of the superclass that allows access to all of its methods to its
-          child class.'''
+          child class. In this instance, it makes webdriver accessible to all of our methods.'''
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         if self.teardown:
@@ -34,14 +33,19 @@ class ProfessorBot(webdriver.Chrome):
         )
         close_button.click()
 
+    def get_school(self):
+        school_name = input("Enter the name of your school as it shows up on ratemyprofessors.com.\n"
+                            "Examples: 'Harvard University' or 'Georgia State University'\n"
+                            "Your school: ")
+        return school_name
+
     def select_school(self):
         searh_bar = self.find_element(
             By.CSS_SELECTOR,
             'input[placeholder="Your school"]'
         )
-        school_name_keys = input("Enter the full name of your school.\n"
-                            "E.g., georgia state university: ")
-        searh_bar.send_keys(f'{school_name_keys}')
+        school = self.get_school()
+        searh_bar.send_keys(f'{school}')
 
         dropdown = self.find_element(
             By.CLASS_NAME,
@@ -50,7 +54,7 @@ class ProfessorBot(webdriver.Chrome):
 
         go_to_school = dropdown.find_element(
             By.CSS_SELECTOR,
-            f'a[aria-label="School page for {school_name_keys}"]'
+            f'a[aria-label="School page for {school}"]'
         )
         go_to_school.click()
 
@@ -71,27 +75,24 @@ class ProfessorBot(webdriver.Chrome):
             'h1'
         ).get_attribute('innerHTML')
 
-        # fix this later to allow for 3-digit numbers
-        match = re.findall('[^\\D\\s]', innerHTML)
+        match = re.findall('[^\\D\\s]', innerHTML)  # pull the number of professors for the school page we're on
         num = int(''.join(match))
         print(num)
+
         see_more = self.find_element(
             By.CSS_SELECTOR,
             'button[class="Buttons__Button-sc-19xdot-1 PaginationButton__StyledPaginationButton-txi1dr-1 gjQZal"]'
         )
 
-        # for testing purposes we will only do the first 48 results
-        for i in range(5):
+        iter_num = num//8
+        print(iter_num)
+        for i in range(iter_num):  # press "Show More" until all professors are showing
             see_more.click()
-            time.sleep(.8)
+            time.sleep(0.65)
 
-        '''iter_num = int(round(num/8, 0))
-        for i in range(iter_num):
-            try:
-                see_more.click()
-                time.sleep(.8)
-            except:
-                pass'''
+    def make_file(self):  # user input for filename to be used for our .py and .txt files
+        file_name = input('Enter the name of your export file: ')
+        return file_name
 
     def report_results(self):
         professor_list = self.find_element(
@@ -102,8 +103,16 @@ class ProfessorBot(webdriver.Chrome):
         table = PrettyTable(
             field_names=['Professor Name', 'Rating', 'Subject']
         )
-        table.add_rows(report.pull_prof_info())
-        print(table)
+
+        all_data = report.pull_prof_info()
+        table.add_rows(all_data)
+
+        file_name = self.make_file()
+
+        with open(f'{file_name}.txt', 'w') as export:
+            export.write(f'{table}')
+        with open(f'{file_name}.py', 'w') as list_data:
+            list_data.write(f'{all_data}')
 
         #print(school_name_selection)
         #print(dropdown.get_attribute("innerHTML"))

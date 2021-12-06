@@ -1,0 +1,2044 @@
++-----------------------------+--------+----------------------------------------+
+|        Professor Name       | Rating |                Subject                 |
++-----------------------------+--------+----------------------------------------+
+|        Jim   Greenlee       |  3.3   |            Computer Science            |
+|        Randy   Engle        |  4.5   |               Psychology               |
+|         Jack   Marr         |  2.6   |               Psychology               |
+|      Phillip   Ackerman     |  3.5   |               Psychology               |
+|        Ron   Broglio        |  3.9   |                English                 |
+|        Peter   Brecke       |  3.5   |           Political Science            |
+|      Carol   Colatrella     |  3.9   |                English                 |
+|         Jay   Bolter        |  3.8   |               Literature               |
+|        Jeff Geronimo        |  2.4   |              Mathematics               |
+|       Johan Belinfante      |  1.8   |              Mathematics               |
+|         George Riley        |  4.7   |              Engineering               |
+|         Terry Snell         |  4.1   |                Biology                 |
+|         Ron Mendola         |  4.7   |                 Music                  |
+|          Ahmet Uzer         |  4.5   |                Science                 |
+|          Al Merrill         |  4.0   |                Science                 |
+|       Charles Parsons       |  3.0   |                Business                |
+|       Jonathan Clarke       |  4.3   |                Business                |
+|      Carlos Santamarina     |  3.9   |              Engineering               |
+|        William Koros        |  5.0   |          Chemical Engineering          |
+|        Mustaq Ahamad        |  2.5   |            Computer Science            |
+|         Kurt Pennell        |  4.8   |              Engineering               |
+|        Peter Vantine        |  3.5   |               Marketing                |
+|        Chris Paredis        |  3.0   |              Engineering               |
+|         Colin Potts         |  4.3   |            Computer Science            |
+|        Michael Evans        |  3.6   |              Mathematics               |
+|        Andrei Fedorov       |  4.4   |              Engineering               |
+|          Yang Wang          |  4.2   |              Mathematics               |
+|       Lawrence Foster       |  4.1   |                History                 |
+|          Yingfei Yi         |  2.3   |              Mathematics               |
+|        Robert Burgess       |  4.6   |                Business                |
+|       Michael Laughter      |  2.3   |                English                 |
+|         Jack Feldman        |  2.8   |               Psychology               |
+|         Charles Ume         |  1.4   |              Engineering               |
+|        Robert Whetten       |  1.7   |                Physics                 |
+|        William Baron        |  4.6   |               Chemistry                |
+|      Alexei Marchenkov      |  4.5   |                Physics                 |
+|          Parks Dodd         |  2.2   |               Economics                |
+|       Vicki Birchfield      |  2.7   |           Political Science            |
+|         Ahmet Erbil         |  4.0   |                Physics                 |
+|        Michael Schatz       |  3.5   |                Physics                 |
+|        Britta Kallin        |  3.8   |               Languages                |
+|       Bettina Cothran       |  3.0   |               Languages                |
+|        Richard Barke        |  3.9   |           Political Science            |
+|       Yucel Altunbasak      |  3.6   |              Engineering               |
+|     Spyros Pavlostathis     |  3.6   |              Engineering               |
+|         Jerry Ulrich        |  4.8   |                 Music                  |
+|        Vijay Vazirani       |  4.8   |            Computer Science            |
+|          Liang Peng         |  2.2   |              Mathematics               |
+|         Brent Carter        |  2.6   |              Engineering               |
+|         Xiaoming Huo        |  2.3   |              Engineering               |
+|         Vivek Ghosal        |  3.1   |               Economics                |
+|         Robin Thomas        |  3.6   |              Mathematics               |
+|          John Wood          |  4.6   |                Physics                 |
+|         Mark McCabe         |  0.0   |               Economics                |
+|        Linda Rosskopf       |  3.4   |             Health Science             |
+|       Jean Bellissard       |  2.0   |                Physics                 |
+|       Gordon Kingsley       |  5.0   |             Public Policy              |
+|          Tom Morley         |  2.3   |              Mathematics               |
+|          John Tone          |  4.6   |                History                 |
+|           Soy Chen          |  0.0   |                Science                 |
+|         Kurt Eiselt         |  0.0   |            Computer Science            |
+|          Greg Huey          |  3.5   |                Science                 |
+|       Laura McPheters       |  0.0   |         Electrical Engineering         |
+|        Milena Mihail        |  4.8   |            Computer Science            |
+|         Edward Keene        |  4.4   |         International Studies          |
+|        Michele Kliem        |  3.3   |             Health Science             |
+|         Jim St John         |  2.6   |                Science                 |
+|     Christina Bourgeois     |  3.5   |              Engineering               |
+|       Rina Tannenbaum       |  2.6   |         Materials Engineering          |
+|         Aaron Bobick        |  4.0   |            Computer Science            |
+|         Nathan Geer         |  3.0   |              Mathematics               |
+|        Kent Barefield       |  3.5   |               Chemistry                |
+|       Jonathan Schneer      |  4.8   |                History                 |
+|       J Todd Streelman      |  4.0   |                Biology                 |
+|          John Zhang         |  3.0   |                Science                 |
+|       Christoph Fahrni      |  3.4   |               Chemistry                |
+|         Uzi Landman         |  0.0   |                Physics                 |
+|        Alfred Andrew        |  3.0   |              Mathematics               |
+|        Jim McClellan        |  3.6   |              Engineering               |
+|         David Keezer        |  2.8   |         Electrical Engineering         |
+|        Gregory Nobles       |  4.6   |                History                 |
+|       Michael Stewart       |  4.5   |         Mechanical Engineering         |
+|          Jud Ready          |  3.2   |         Materials Engineering          |
+|     Christel Hohenegger     |  4.8   |              Mathematics               |
+|          James Gole         |  2.5   |                Physics                 |
+|          Ashok Goel         |  4.4   |            Computer Science            |
+|         Khai Truong         |  4.5   |            Computer Science            |
+|         Alka Citrin         |  3.1   |               Management               |
+|        Donovan Young        |  0.0   |         Industrial Engineering         |
+|         Wade Chumney        |  4.6   |                Business                |
+|         Elaine Huang        |  0.0   |            Computer Science            |
+|       Massimo Ruzzene       |  3.8   |           Aerospace Studies            |
+|       Mostafa ElSayed       |  2.9   |               Chemistry                |
+|        JeanLuc Bredas       |  3.3   |               Chemistry                |
+|        Gillian Hayes        |  0.0   |            Computer Science            |
+|         Dewey Hodges        |  2.4   |              Engineering               |
+|       William Trotter       |  4.3   |              Mathematics               |
+|      Tyanna Herrington      |  2.9   |                English                 |
+|      Melissa Stevenson      |  4.5   |                English                 |
+|         Stuart Milne        |  4.0   |               Management               |
+|        Yih Long Chang       |  3.3   |               Management               |
+|         David Orloff        |  3.3   |         Mechanical Engineering         |
+|     Garoufalidis Stavros    |  2.2   |              Mathematics               |
+|        Loren Williams       |  3.4   |               Chemistry                |
+|         Tom Sanders         |  2.5   |              Engineering               |
+|      Narayanan Komerath     |  1.5   |         Aerospace Engineering          |
+|        HsienHsin Lee        |  4.3   |         Electrical Engineering         |
+|         Richard Neu         |  4.2   |         Mechanical Engineering         |
+|          David Tan          |  4.5   |             Earth Science              |
+|        Jennie Lincoln       |  2.2   |          Internation Service           |
+|       Bridget Heneghan      |  4.5   |                English                 |
+|        David Anderson       |  3.7   |         Electrical Engineering         |
+|         Turkay Yolcu        |  4.1   |              Mathematics               |
+|        Gunter Meyers        |  1.0   |              Mathematics               |
+|         Jon Sanford         |  1.0   |              Architecture              |
+|       Angelika Oswalt       |  4.4   |                 German                 |
+|          Paul Wine          |  2.5   |               Chemistry                |
+|      Dragomir Davidovic     |  3.4   |                Physics                 |
+|      Lawrence Bottomley     |  2.5   |               Chemistry                |
+|        Dimitri Mavris       |  2.2   |           Aerospace Studies            |
+|          Joy Laskar         |  3.0   |         Electrical Engineering         |
+|        Svetlana Krat        |  1.0   |              Mathematics               |
+|         David Howard        |  3.2   |              Mathematics               |
+|        Dmitriy Bilyk        |  0.0   |              Mathematics               |
+|         Xingxing Yu         |  4.0   |              Mathematics               |
+|         Galina Grom         |  4.5   |                Physics                 |
+|       Ruchi Choudhary       |  0.0   |              Architecture              |
+|            YE Li            |  3.5   |         Electrical Engineering         |
+|          Ken Brown          |  3.8   |               Chemistry                |
+|          Avram Sidi         |  1.5   |              Mathematics               |
+|      Elizabeth Dowling      |  3.3   |              Architecture              |
+|        Julia Kubanek        |  4.5   |                Biology                 |
+|        Peter Carnell        |  3.7   |         Mechanical Engineering         |
+|         AJ Zucchero         |  4.3   |               Chemistry                |
+|         Jason Embry         |  4.5   |                English                 |
+|       Christine Payne       |  2.6   |               Chemistry                |
+|       Steven Girardot       |  4.8   |               Chemistry                |
+|        Steve Hackman        |  3.2   |         Industrial Engineering         |
+|        Robert Kennedy       |  4.4   |         International Politics         |
+|         Joseph Perry        |  2.7   |               Chemistry                |
+|        Jens Karlsson        |  0.0   |         Mechanical Engineering         |
+|         John Peatman        |  3.9   |         Electrical Engineering         |
+|        Charles Isbell       |  2.7   |            Computer Science            |
+|       Thomas Habetler       |  4.2   |         Electrical Engineering         |
+|           Ana Cruz          |  3.9   |            Modern Languages            |
+|         Ken Cunefare        |  3.1   |         Mechanical Engineering         |
+|        Lisa Schneider       |  5.0   |                English                 |
+|         Mary Behrman        |  5.0   |                English                 |
+|       LuzVela Arevalo       |  1.9   |              Mathematics               |
+|       Christine Valle       |  4.8   |              Engineering               |
+|          Louis Lyon         |  4.8   |               Chemistry                |
+|        Edward Conrad        |  2.4   |                Physics                 |
+|           Ben Zinn          |  4.2   |         Aerospace Engineering          |
+|        Alison Faupel        |  0.0   |               Sociology                |
+|       Georgia Persons       |  1.7   |           Political Science            |
+|         Ian Ferguson        |  0.0   |         Electrical Engineering         |
+|         Nihad Farooq        |  3.9   |                English                 |
+|         Rick Porter         |  0.0   |              Architecture              |
+|         Charlie Cox         |  4.7   |               Chemistry                |
+|       Charles Mulford       |  5.0   |               Accounting               |
+|      Philippe Rigollet      |  0.0   |              Mathematics               |
+|       Ibrahiim Bayaan       |  4.6   |               Economics                |
+|       Jason Borenstein      |  4.8   |             Public Policy              |
+|         John Garver         |  3.3   |           Political Science            |
+|          Hanchao Lu         |  3.6   |                History                 |
+|           Ken Gall          |  5.0   |         Materials Engineering          |
+|      Marcus Kindermann      |  3.2   |                Physics                 |
+|        Russell Todres       |  0.0   |              Mathematics               |
+|       Patrick Reynolds      |  0.0   |                English                 |
+|        Jared Johnson        |  4.2   |                English                 |
+|        Jurgen Grandt        |  4.2   |                English                 |
+|        GeeKung Chang        |  2.3   |         Electrical Engineering         |
+|     Angela Dalle Vacche     |  3.1   |               Literature               |
+|        Wilfred Gangbo       |  3.2   |              Mathematics               |
+|       Mikhail Klimenko      |  3.8   |               Economics                |
+|       Danielle Lawson       |  3.1   |     English &amp; Liberal Studies      |
+|           Hyun Lee          |  2.0   |              Architecture              |
+|         Mike Kilgore        |  2.7   |               Management               |
+|       Manos Tentzeris       |  4.5   |         Electrical Engineering         |
+|         Beril Toktay        |  1.5   |               Management               |
+|          Seung Jang         |  3.8   |         Materials Engineering          |
+|      Leonid Germanovich     |  3.1   |              Engineering               |
+|        Angela Labarca       |  4.2   |            Modern Languages            |
+|       W Steven Johnson      |  3.5   |         Mechanical Engineering         |
+|       Angelo Bongiorno      |  3.2   |               Chemistry                |
+|        Youjiang Wang        |  1.8   |              Engineering               |
+|         Jorge Laval         |  2.8   |               Statistics               |
+|        Nazanin Gharb        |  0.0   |              Engineering               |
+|          Doug Yoder         |  3.1   |         Electrical Engineering         |
+|         Jiangang Dai        |  2.5   |          Systems Engineering           |
+|          Huy Huynh          |  3.9   |              Mathematics               |
+|        Cameron Tyson        |  4.8   |               Chemistry                |
+|          Sabir Khan         |  3.1   |              Architecture              |
+|          Ayse Ozbil         |  4.3   |              Architecture              |
+|         Stacy Lavin         |  2.8   |                English                 |
+|      Aris Georgiokakos      |  0.0   |            Computer Science            |
+|        Thomas Brewer        |  1.9   |         Electrical Engineering         |
+|       Wendy Newstetter      |  3.5   |         Biomedical Engineering         |
+|       Ravi Bellamkonda      |  5.0   |         Biomedical Engineering         |
+|         Narin Hassan        |  5.0   |               Literature               |
+|          Jay Summet         |  4.1   |            Computer Science            |
+|          Robert Lee         |  2.4   |         Biomedical Engineering         |
+|       Jeremy Wilhoyte       |  3.0   |               Chemistry                |
+|   Alberto FernandezNieves   |  3.6   |                Physics                 |
+|       Sandra Slaughter      |  0.0   |               Management               |
+|        Karissa McCoy        |  5.0   |               Literature               |
+|       Jennifer Parrott      |  4.3   |                English                 |
+|     Manuel Perez Tejada     |  3.5   |                English                 |
+|      Kristin Marsicano      |  3.8   |            Computer Science            |
+|         Matt Paproth        |  4.3   |                English                 |
+|        Esther Skelley       |  3.9   |               Education                |
+|        Nagi Gebraeel        |  2.9   |         Industrial Engineering         |
+|     Madhavan Swaminathan    |  4.5   |         Electrical Engineering         |
+|          Sy Goodman         |  2.4   |         International Studies          |
+|       David Stollberg       |  3.8   |         Materials Engineering          |
+|         Ryan Russell        |  2.7   |         Aerospace Engineering          |
+|        Anthony Hoefer       |  4.6   |                English                 |
+|        Emma Crandall        |  3.9   |                English                 |
+|     Kelly ManningMassey     |  4.4   |             Health Science             |
+|         Donald Allen        |  4.0   |                 Music                  |
+|       Kurt Wiesenfeld       |  3.8   |                Physics                 |
+|        Melissa Meeks        |  3.1   |                English                 |
+|      Cindy ZapataPhelan     |  3.2   |               Management               |
+|          Soojin YI          |  3.5   |                Biology                 |
+|         Todd Sulchek        |  3.7   |         Mechanical Engineering         |
+|        Mulalo Doyoyo        |  3.9   |           Civil Engineering            |
+|         Rafi Muhanna        |  4.0   |    Civil &amp; Environ Engineering     |
+|         Yonca Toker         |  3.5   |               Psychology               |
+|         Dawn Trimble        |  2.3   |              Architecture              |
+|        David Sanborn        |  3.0   |         Mechanical Engineering         |
+|        Richard Salant       |  1.8   |         Mechanical Engineering         |
+|         Kurt Frankel        |  4.5   |             Earth Science              |
+|          Sue Rosser         |  0.0   |                History                 |
+|         Derek Tittle        |  4.2   |               Economics                |
+|          Saby Mitra         |  0.0   |               Technology               |
+|        Stephen Young        |  0.0   |              Mathematics               |
+|        Brian McMahon        |  5.0   |               Psychology               |
+|        Charles Eckert       |  3.5   |          Chemical Engineering          |
+|        Andrew Altizer       |  4.8   |               Technology               |
+|        Mark Clements        |  3.8   |         Electrical Engineering         |
+|      Andrew Famiglietti     |  3.8   |                English                 |
+|         James Morris        |  1.8   |               Chemistry                |
+|        Thomas Gaylord       |  3.3   |         Electrical Engineering         |
+|   Elizabeth F Freudenthal   |  3.5   |                English                 |
+|        Bruce Stiftel        |  0.0   |             Urban Planning             |
+|        Jo Anne Harris       |  1.5   |                English                 |
+|        Muhammad Umer        |  0.0   |         Electrical Engineering         |
+|        Margaret Kosal       |  3.9   |          Internation Service           |
+|        Robin Wharton        |  3.8   |                English                 |
+|         Crystal Lake        |  4.1   |                English                 |
+|        ByungCheol Kim       |  3.2   |               Economics                |
+|    Michael Westdickenberg   |  1.4   |              Mathematics               |
+|         Andrea Wood         |  1.9   |                English                 |
+|     Maria Westdickenberg    |  2.0   |              Mathematics               |
+|      Alejandro Toriello     |  2.8   |         Industrial Engineering         |
+|         Robert Braun        |  5.0   |         Aerospace Engineering          |
+|         Yuri Bakhtin        |  1.8   |              Mathematics               |
+|      Irene J Middleton      |  2.5   |                English                 |
+|        Nirmal Trivedi       |  3.9   |            American Studies            |
+|        Roberta Berry        |  4.9   |             Public Policy              |
+|         Frank Pilipp        |  3.9   |                 German                 |
+|        Charles Liotta       |  4.7   |               Chemistry                |
+|      J Michael Cummins      |  4.7   |               Management               |
+|       Jonathan Giffin       |  3.0   |            Computer Science            |
+|        Amy Pritchett        |  0.0   |           Cognitive Science            |
+|        James Broadway       |  5.0   |               Psychology               |
+|      Robert Blaskiewicz     |  3.8   |                English                 |
+|         Tiffany Tsao        |  4.6   |                English                 |
+|        Melanie Kohnen       |  3.1   |                English                 |
+|         David Brown         |  3.3   |                English                 |
+|     David Shallenberger     |  5.0   |        Organizational Behavior         |
+|        Roger Whiston        |  3.3   |                English                 |
+|         Ian Akiyldiz        |  0.0   |         Electrical Engineering         |
+|           Min Kim           |  2.5   |               Psychology               |
+|        David McDowell       |  4.5   |         Mechanical Engineering         |
+|            Nan LU           |  4.0   |              Mathematics               |
+|          Brian Hunt         |  4.0   |               Economics                |
+|         Andrea Clay         |  3.5   |               Psychology               |
+|       Vanessa Thompson      |  5.0   |               Psychology               |
+|         Jarrod Hines        |  3.6   |               Psychology               |
+|          Amit Einav         |  2.3   |              Mathematics               |
+|         Alan Wilhite        |  2.0   |         Aerospace Engineering          |
+|        Jerry Pullman        |  3.0   |                Biology                 |
+|          Brett Wick         |  5.0   |              Mathematics               |
+|           Jian Luo          |  3.7   |           Civil Engineering            |
+|          Alex Oettl         |  2.4   |               Management               |
+|           Leo Mark          |  3.7   |            Computer Science            |
+|      Deirdre Shoemaker      |  3.7   |                Physics                 |
+|         Mike Stilman        |  3.5   |            Computer Science            |
+|        Waymond Scott        |  0.0   |         Electrical Engineering         |
+|         Lisa Vaughan        |  1.5   |               Chemistry                |
+|       Antonius Dieker       |  3.0   |         Industrial Engineering         |
+|        Patricio Vela        |  2.0   |         Electrical Engineering         |
+|          Tony Yezzi         |  3.8   |         Electrical Engineering         |
+|        Matthew Adkins       |  4.1   |               Literature               |
+|         Susan Burns         |  5.0   |              Engineering               |
+|         Moazzam Khan        |  5.0   |         Electrical Engineering         |
+|           Anh Tran          |  1.0   |              Mathematics               |
+|       Kristie MacRakis      |  4.3   |                History                 |
+|       Arash Bozorgmehr      |  2.8   |         Building Construction          |
+|         Usman Saeed         |  4.0   |         Electrical Engineering         |
+|       Sybrina Atwaters      |  2.6   |               Sociology                |
+|       Ignacio Taboada       |  2.7   |                Physics                 |
+|        Tonya Shearer        |  4.0   |                Biology                 |
+|          Ben Deaton         |  4.8   |           Civil Engineering            |
+|          Olin Bjork         |  0.0   |                English                 |
+|          Jack Suen          |  0.0   |              Mathematics               |
+|         Lane Duncan         |  4.7   |              Architecture              |
+|          Fred Cook          |  2.8   |              Engineering               |
+|         Linda Green         |  3.7   |                Biology                 |
+|         Mary Ingram         |  3.0   |         Electrical Engineering         |
+|       Malavika Shetty       |  3.3   |                English                 |
+|         Silas Alben         |  3.6   |              Mathematics               |
+|       Jennifer Leavey       |  2.6   |                Biology                 |
+|        Michael Rowley       |  0.0   |                English                 |
+|         Seunghee Kim        |  3.8   |         Industrial Engineering         |
+|     Ragheda Nassereddine    |  4.5   |                 Arabic                 |
+|        Cianán Russell       |  4.7   |               Chemistry                |
+|        Jesse Stommel        |  5.0   |                English                 |
+|         Marilyn Wolf        |  2.6   |         Electrical Engineering         |
+|         Cecili Reid         |  0.0   |               Chemistry                |
+|         Delia Tyler         |  3.6   |                Spanish                 |
+|           Giang DO          |  0.0   |              Mathematics               |
+|        Vicki Galloway       |  2.8   |                Spanish                 |
+|    Juan Carlos Rodriguez    |  4.5   |                Spanish                 |
+|        Carine Sonntag       |  0.0   |               Economics                |
+|        Leeann Hunter        |  4.0   |                English                 |
+|        Bonnie Perdue        |  3.3   |               Psychology               |
+|        Sergio Almada        |  4.0   |              Mathematics               |
+|         Monson Hayes        |  0.0   |         Electrical Engineering         |
+|      Claudia Winegarden     |  1.0   |           Industrial Design            |
+|         Howie Weiss         |  2.6   |              Mathematics               |
+|        Todd McDevitt        |  4.5   |         Biomedical Engineering         |
+|      Candice Welhausen      |  4.0   |               Literature               |
+|       Vinicius Navarro      |  5.0   |               Literature               |
+|         Craig Sloane        |  4.3   |              Mathematics               |
+|         Brenda Rowe         |  3.0   |             Public Policy              |
+|         Elisa Riedo         |  1.5   |                Physics                 |
+|         Ian Gatland         |  5.0   |                Physics                 |
+|       Kathryn Crowther      |  4.0   |                English                 |
+|          Glenn Rix          |  4.5   |           Civil Engineering            |
+|         Thomas Lolis        |  4.8   |                English                 |
+|       Lawrence Keller       |  5.0   |               Management               |
+|         Meghan Duffy        |  3.8   |                Biology                 |
+|       Rebekah Sheldon       |  1.8   |                English                 |
+|           Jeff WU           |  4.0   |         Industrial Engineering         |
+|       Peter Rorabaugh       |  2.5   |                English                 |
+|       Lauren Curtright      |  4.0   |                English                 |
+|          Carol Paty         |  5.0   |             Earth Science              |
+|        Baratunde Cola       |  3.7   |         Mechanical Engineering         |
+|        Diane Jakacki        |  4.4   |                English                 |
+|        Barry Marchman       |  2.8   |               Management               |
+|      Kimiaki Yamaguchi      |  4.1   |                Japanese                |
+|       Renato Monteiro       |  2.2   |         Industrial Engineering         |
+|     Saibal Mukhopadhyay     |  3.7   |         Electrical Engineering         |
+|        May Sheldon W        |  5.0   |               Chemistry                |
+|         Chris Pryby         |  1.5   |              Mathematics               |
+|       Olga Shemyakina       |  2.7   |               Economics                |
+|          Laura Bier         |  3.8   |                History                 |
+|         Ann Pollock         |  4.8   |                English                 |
+|        Vinod Cheriyan       |  3.0   |         Industrial Engineering         |
+|          Hal Hollis         |  0.0   |         Electrical Engineering         |
+|         Andrew Kelly        |  4.5   |               Psychology               |
+|        Richard Fritz        |  3.1   |               Economics                |
+|        Michelle Miles       |  4.8   |                English                 |
+|         Seth Marder         |  2.5   |               Chemistry                |
+|       Dustin AventHolt      |  4.3   |               Sociology                |
+|         Gleb Yushin         |  3.9   |         Materials Engineering          |
+|        Nathan Bennett       |  4.3   |               Management               |
+|        Alisha Waller        |  2.5   |         Industrial Engineering         |
+|     Stavros Garoufalidis    |  3.0   |              Mathematics               |
+|        Charles Brooks       |  2.7   |               Psychology               |
+|         Robert Loewy        |  3.0   |           Aerospace Studies            |
+|        Kevin Brenner        |  5.0   |              Engineering               |
+|          Yulin Deng         |  1.3   |          Chemical Engineering          |
+|       JohnPaul Adrian       |  5.0   |                  ROTC                  |
+|     Christopher Weedman     |  5.0   |                English                 |
+|        Ries Christine       |  2.0   |               Economics                |
+|        Wassim Haddad        |  3.1   |         Aerospace Engineering          |
+|       Kathleen Hanggi       |  3.4   |               Literature               |
+|        Farzad Rahnema       |  0.0   |          Nuclear Engineering           |
+|       Tristan Utschig       |  4.5   |          Nuclear Engineering           |
+|        Weston Stacey        |  0.0   |          Nuclear Engineering           |
+|        Ck Chris Wang        |  3.1   |          Nuclear Engineering           |
+|         Glenn Sjoden        |  0.0   |          Nuclear Engineering           |
+|       Said AbdelKhalik      |  3.0   |          Nuclear Engineering           |
+|        Gary Schuster        |  3.5   |               Chemistry                |
+|         John Harkey         |  4.2   |                English                 |
+|         Brian Bowen         |  0.0   |         Building Construction          |
+|        Merrick Furst        |  4.7   |            Computer Science            |
+|           XI Kuang          |  4.0   |               Accounting               |
+|        Francoise Desy       |  3.5   |                 French                 |
+|         Andras Kroo         |  3.5   |              Mathematics               |
+|        Regina Martin        |  4.3   |                English                 |
+|       Tracy Halverson       |  0.0   |               Psychology               |
+|           Ling Liu          |  2.8   |            Computer Science            |
+|       Rebecca Winarski      |  4.3   |              Mathematics               |
+|         Linda Harley        |  2.7   |             Health Science             |
+|        Berkley Gryder       |  4.5   |               Chemistry                |
+|         Erica Ryherd        |  4.5   |              Engineering               |
+|     Athanassios Sambanis    |  4.5   |          Chemical Engineering          |
+|        Doron Lubinski       |  3.0   |              Mathematics               |
+|        Kellie Meyers        |  3.4   |                English                 |
+|         Fawad Niazi         |  4.3   |              Engineering               |
+|         Hye Joo Lee         |  5.0   |               Psychology               |
+|         Kathy Roper         |  3.3   |         Building Construction          |
+|         Lilian Wong         |  5.0   |              Mathematics               |
+|      Christine Hoffmann     |  4.7   |                English                 |
+|        Shannon Barker       |  2.6   |         Biomedical Engineering         |
+| Konstantinos Konstantinidis |  2.0   |       Environmental Engineering        |
+|         Sunni Newton        |  3.6   |               Psychology               |
+|         James Turner        |  3.7   |               Management               |
+|        Naresh Mallick       |  4.5   |               Economics                |
+|        Seletha Butler       |  4.5   |               Management               |
+|         Dennis Nagao        |  2.9   |               Management               |
+|         Sarah Schiff        |  4.5   |                English                 |
+|       Hillary Schwarb       |  5.0   |               Psychology               |
+|         Mustafa Aral        |  3.3   |       Environmental Engineering        |
+|       Michael Cathcart      |  5.0   |                Physics                 |
+|     Christophe Ippolito     |  4.3   |                 French                 |
+|        Mardi Hastings       |  0.0   |         Mechanical Engineering         |
+|         Azad Naeemi         |  4.5   |         Electrical Engineering         |
+|       Magnus Egerstedt      |  4.7   |         Electrical Engineering         |
+|     Ranjini Vaidyanathan    |  2.8   |              Mathematics               |
+|         Jane Weyant         |  3.0   |              Engineering               |
+|         Paul Neitzel        |  4.8   |         Mechanical Engineering         |
+|        Laren Tolbert        |  2.8   |               Chemistry                |
+|         Jarrod Hayes        |  4.6   |         International Politics         |
+|     Sundaresan Jayaraman    |  0.0   |              Engineering               |
+|         Santanu Dey         |  4.4   |         Industrial Engineering         |
+|       Caroline Genzale      |  4.4   |         Mechanical Engineering         |
+|        Michael Meyer        |  4.0   |           Civil Engineering            |
+|        Amanda Madden        |  3.5   |                English                 |
+|          Jan Gooch          |  0.0   |          Chemical Engineering          |
+|         Akash Dixit         |  3.9   |         Mechanical Engineering         |
+|       Ajit Yoganathan       |  0.0   |         Biomedical Engineering         |
+|        James Hoadley        |  2.9   |               Management               |
+|         Cinzia Elia         |  2.5   |              Mathematics               |
+|        Seok Bae Jang        |  5.0   |                 Korean                 |
+|         Britta Spann        |  4.8   |                English                 |
+|       Charles Phillips      |  2.4   |            Computer Science            |
+|        Michelle Dimeo       |  5.0   |               Literature               |
+|        Andrew Miller        |  5.0   |            Computer Science            |
+|     Jean LynchStieglitz     |  4.1   |             Earth Science              |
+|         David Jenson        |  5.0   |               Chemistry                |
+|         Bryan Norton        |  1.5   |             Public Policy              |
+|          Hongwei WU         |  1.5   |               Statistics               |
+|           Jenna FU          |  5.0   |         Electrical Engineering         |
+|      Moinuddin Qureshi      |  5.0   |         Electrical Engineering         |
+|   Laura Holden Hollengreen  |  2.4   |              Architecture              |
+|         Shanti Agung        |  4.0   |               Management               |
+|         YE Xiaojing         |  1.0   |              Mathematics               |
+|        Aaron Kashtan        |  3.5   |                English                 |
+|     Jennifer OrthVeillon    |  4.8   |                English                 |
+|        Barbara Jansma       |  0.0   |            Modern Languages            |
+|     Sathyanaraya Hanagud    |  2.2   |         Aerospace Engineering          |
+|         Andrew Ruff         |  4.5   |              Architecture              |
+|        Johnson Kakeu        |  4.8   |               Economics                |
+|         ShuiNee Chow        |  3.7   |              Mathematics               |
+|        David Goldberg       |  2.8   |         Industrial Engineering         |
+|            LU XU            |  1.5   |              Mathematics               |
+|        Andrea Thomaz        |  3.8   |            Computer Science            |
+|      Christopher Ethier     |  4.2   |         Biomedical Engineering         |
+|     Madhusudan Manjunath    |  1.0   |              Mathematics               |
+|          Younan Xia         |  2.7   |               Chemistry                |
+|        Ann Gerondelis       |  2.8   |              Architecture              |
+|        Saikat Biswas        |  3.8   |              Mathematics               |
+|          Liz Dallas         |  5.0   |         International Politics         |
+|      Christopher Ritter     |  4.3   |              Linguistics               |
+|         Jennifer Lux        |  5.0   |                English                 |
+|       Angela Gaboardi       |  2.5   |             Health Science             |
+|        Peter Fontaine       |  5.0   |                English                 |
+|      Tamara Bogdanovic      |  4.4   |                Physics                 |
+|       Justin Desimone       |  5.0   |               Management               |
+|      Franklin Gbologah      |  3.0   |           Civil Engineering            |
+|         Susan Thomas        |  3.8   |         Biomedical Engineering         |
+|         Sungshik Yim        |  2.0   |            Computer Science            |
+|       William Singhose      |  3.5   |         Mechanical Engineering         |
+|          Bill Todd          |  4.7   |               Management               |
+|        Clint Zeagler        |  4.5   |           Industrial Design            |
+|          Eric Feron         |  3.2   |           Aerospace Studies            |
+|         James Conway        |  0.0   |              Mathematics               |
+|         Adaora Okwo         |  1.0   |         Industrial Engineering         |
+|      Charles Philips Jr     |  1.0   |            Computer Science            |
+|  Charles Edward Phillips Jr |  2.8   |            Computer Science            |
+|         Jenna Jordan        |  4.5   |         International Politics         |
+|          Lena Ting          |  4.8   |         Biomedical Engineering         |
+|       Hagop Tossounian      |  5.0   |              Mathematics               |
+|         Aaron Pease         |  1.5   |                English                 |
+|        Ionel Popescu        |  2.3   |              Mathematics               |
+|         Chuck Zhang         |  1.6   |         Industrial Engineering         |
+|        Amanda Golden        |  4.8   |                English                 |
+|         Wayne Drews         |  4.3   |                History                 |
+|         Jason Nadler        |  0.0   |         Materials Engineering          |
+|       AnneMarie Kuhne       |  5.0   |                 French                 |
+|        Barbara Lynch        |  3.0   |         International Politics         |
+|         Albert Bush         |  3.8   |              Mathematics               |
+|         Julia Munro         |  2.8   |                English                 |
+|        Antonio Cicone       |  4.3   |              Mathematics               |
+|       JohnPaul Clarke       |  3.4   |           Aerospace Studies            |
+|       Aaron Greenwood       |  4.2   |           Civil Engineering            |
+|        Gilda Barabino       |  0.0   |         Biomedical Engineering         |
+|       David Ballantyne      |  3.7   |                Physics                 |
+|      Brandon Houghtalen     |  0.0   |                 Music                  |
+|       Katherine Tanski      |  1.5   |                English                 |
+|          Zhewei Fan         |  3.0   |                Chinese                 |
+|         Leroy Emkin         |  0.0   |           Civil Engineering            |
+|          John Krige         |  4.0   |                History                 |
+|         Jim Lemoine         |  5.0   |               Management               |
+|          Kit Ho Mak         |  5.0   |              Mathematics               |
+|         Erika Fulton        |  4.5   |               Psychology               |
+|      Nancey Green Leigh     |  0.0   |             Urban Planning             |
+|        Nick Feamster        |  5.0   |            Computer Science            |
+|       Mitchell Walker       |  3.8   |         Aerospace Engineering          |
+|        Andrew Newman        |  2.4   |             Earth Science              |
+|        Clint Stivers        |  4.8   |                English                 |
+|         Andrew Bozio        |  4.8   |                English                 |
+|        Ishwari Kunwar       |  4.9   |              Mathematics               |
+|        Rohan Ganduri        |  4.8   |               Management               |
+|         Robert Funk         |  2.5   |           Aerospace Studies            |
+|           Mark Hay          |  4.5   |                Biology                 |
+|           Adam Fox          |  0.0   |              Mathematics               |
+|         Joe Rabinoff        |  4.1   |              Mathematics               |
+|      Philip Santangelo      |  0.0   |         Biomedical Engineering         |
+|          Geng Chen          |  3.2   |              Mathematics               |
+|       Kenneth Sandhage      |  3.5   |         Materials Engineering          |
+|       Pere MenalFerrer      |  2.7   |              Mathematics               |
+|          Adam Otte          |  4.1   |                Physics                 |
+|      Annalee Edmondson      |  4.1   |                English                 |
+|        Omar Abuzzahab       |  1.4   |              Mathematics               |
+|          Anne Adams         |  2.7   |               Psychology               |
+|         Itzhak Green        |  1.3   |         Mechanical Engineering         |
+|         Gregg Larson        |  3.7   |         Mechanical Engineering         |
+|         Tobias Hurth        |  2.8   |              Mathematics               |
+|          Paul Kvam          |  0.0   |         Industrial Engineering         |
+|         Xiaolin Wang        |  3.0   |              Mathematics               |
+|       Patricia Taylor       |  2.8   |                English                 |
+|       Natalia Myshkin       |  4.5   |            Modern Languages            |
+|      Alexander Shapiro      |  3.0   |         Industrial Engineering         |
+|      Marc Goetschalckx      |  0.0   |         Industrial Engineering         |
+|        Walter De Heer       |  3.3   |                Physics                 |
+|           Jin Liu           |  4.8   |                Chinese                 |
+|         Chunhua Shan        |  5.0   |              Mathematics               |
+|          Haiyu Zou          |  4.2   |              Mathematics               |
+|          Zoey Chen          |  5.0   |               Management               |
+|      Paulette Richards      |  1.5   |               Literature               |
+|          Joseph Liu         |  4.5   |               Management               |
+|      Gagik Amirkhanyan      |  5.0   |              Mathematics               |
+|         Leah Haught         |  5.0   |               Literature               |
+|        Lindsay Byron        |  0.0   |                English                 |
+|         James Mayor         |  5.0   |         Mechanical Engineering         |
+|         Thomas Stone        |  3.5   |         Mechanical Engineering         |
+|         Dan Sheehan         |  4.5   |               Management               |
+|        Martin Engman        |  2.5   |              Mathematics               |
+|         Byron Lowry         |  0.0   |                Physics                 |
+|            Hui XU           |  3.5   |               Accounting               |
+|        Fabio Difonzo        |  2.5   |              Mathematics               |
+|      Sebastian Pokutta      |  1.0   |         Industrial Engineering         |
+|         Wenshan Cai         |  4.0   |         Electrical Engineering         |
+|         Amey Kaloti         |  2.1   |              Mathematics               |
+|           Hang Lu           |  3.0   |          Chemical Engineering          |
+|      Mary Ann Weitnauer     |  1.5   |         Electrical Engineering         |
+|          Liz Hutter         |  2.0   |                English                 |
+|         Brad Reaves         |  5.0   |            Computer Science            |
+|        Ed Omiecinski        |  3.5   |            Computer Science            |
+|       Thomas Crawford       |  5.0   |                English                 |
+|         Amanda Doody        |  3.3   |               Chemistry                |
+|         Shannon Yee         |  3.4   |         Mechanical Engineering         |
+|       Pradeep Agrawal       |  3.7   |          Chemical Engineering          |
+|         Chunmei Wang        |  4.8   |              Mathematics               |
+|         Neil Weston         |  3.0   |         Aerospace Engineering          |
+|         Dennis Hess         |  2.0   |          Chemical Engineering          |
+|          Leihong LI         |  1.3   |              Engineering               |
+|       Kathryn Wingate       |  5.0   |         Mechanical Engineering         |
+|         Chenchen Mou        |  1.7   |              Mathematics               |
+|       Marcus Holzinger      |  2.9   |         Aerospace Engineering          |
+|         Robert Rahm         |  2.3   |              Mathematics               |
+|         Mirja Lobnik        |  4.6   |                English                 |
+|        Mauro Carassai       |  2.5   |                English                 |
+|        Barbara McCord       |  3.3   |         Mechanical Engineering         |
+|          Zaher Hani         |  3.6   |              Mathematics               |
+|          M Kilgore          |  0.0   |               Accounting               |
+|        Eric Rettberg        |  4.5   |                English                 |
+|        Meisha Shofner       |  4.0   |         Materials Engineering          |
+|      Hadi Esmaeilzadeh      |  0.0   |            Computer Science            |
+|         Tucker Balch        |  4.8   |            Computer Science            |
+|        Joy Bracewell        |  2.5   |                English                 |
+|         Ryan Lively         |  4.9   |          Chemical Engineering          |
+|          John Zhang         |  3.5   |               Chemistry                |
+|       Fredrik Vannberg      |  1.0   |                Biology                 |
+|          Gary Jones         |  4.0   |               Management               |
+|          Marty Fink         |  4.9   |                English                 |
+|          Suman Das          |  3.3   |         Mechanical Engineering         |
+|          Noah  Mass         |  5.0   |                English                 |
+|          Karen Liu          |  4.0   |            Computer Science            |
+|        William Gignac       |  4.2   |              Mathematics               |
+|          Jung Park          |  2.2   |         Materials Engineering          |
+|          Seong  Kim         |  2.4   |              Mathematics               |
+|         James Moore         |  1.0   |              Mathematics               |
+|       Patrick McCarthy      |  1.6   |               Economics                |
+|         ChiJen Wang         |  2.4   |              Mathematics               |
+|       Patrick Bardill       |  3.0   |                Biology                 |
+|          Dario Mena         |  4.0   |              Mathematics               |
+|        Simon Sponberg       |  4.6   |                Physics                 |
+|       Phoebe Bronstein      |  3.4   |                English                 |
+|         Elliot Moore        |  4.2   |         Electrical Engineering         |
+|         Adam Vitalis        |  3.5   |               Management               |
+|         Irina Holmes        |  4.9   |              Mathematics               |
+|         Donnie Young        |  4.5   |               Accounting               |
+|         Robert Funk         |  3.3   |         Aerospace Engineering          |
+|         Rustin Meyer        |  5.0   |               Psychology               |
+|        Alexandra Coso       |  0.0   |         Aerospace Engineering          |
+|     Christina Frederick     |  2.1   |              Mathematics               |
+|      Necati Tereyagoglu     |  4.5   |               Management               |
+|        Zhigang Jiang        |  4.2   |                Physics                 |
+|          Molei Tao          |  4.8   |              Mathematics               |
+|      Kirsten Wickelgren     |  0.0   |              Mathematics               |
+|        Jennifer Smith       |  0.0   |        English  Liberal Studies        |
+|       Richard DeMillo       |  1.0   |            Computer Science            |
+|       Michael Salomone      |  5.0   |         International Politics         |
+|         Paul Alonso         |  3.5   |                Spanish                 |
+|       Chelsea Bullock       |  2.9   |                English                 |
+|        Thomas Kurfess       |  4.3   |         Mechanical Engineering         |
+|         Aaron Howell        |  5.0   |         Mechanical Engineering         |
+|     Nassim  JafariNaimi     |  2.5   |            Computer Science            |
+|         Ian Akyildiz        |  2.3   |         Electrical Engineering         |
+|        Samuel Graham        |  0.0   |         Mechanical Engineering         |
+|       Jeffrey Donnell       |  1.0   |         Mechanical Engineering         |
+|         Shane Scott         |  3.5   |              Mathematics               |
+|      Rafael de la Llave     |  1.7   |              Mathematics               |
+|       Manuela Manetta       |  3.6   |              Mathematics               |
+|        George Kerchev       |  3.1   |              Mathematics               |
+|         Rohan Ghanta        |  3.6   |              Mathematics               |
+|        Mark Prausnitz       |  1.0   |         Biomedical Engineering         |
+|          Edwin Lim          |  4.5   |           Civil Engineering            |
+|       Stuart Goldberg       |  4.4   |                Russian                 |
+|       Kristin Allukian      |  4.5   |                English                 |
+|       Amanda Stephens       |  2.7   |               Chemistry                |
+|       Maryam Yashtini       |  3.3   |              Mathematics               |
+|          Matej Drev         |  4.0   |             Public Policy              |
+|          John Walsh         |  4.3   |             Public Policy              |
+|          Paul Yoder         |  3.3   |         Electrical Engineering         |
+|          Ying Zhang         |  4.5   |         Electrical Engineering         |
+|         Geoffrey Li         |  3.0   |         Electrical Engineering         |
+|         Ross Permar         |  0.0   |         Industrial Engineering         |
+|      Cassandra Telenko      |  3.0   |         Mechanical Engineering         |
+|           Ji Zhou           |  0.0   |               Management               |
+|         rachel kelly        |  0.0   |           Cognitive Science            |
+|         Rainer Sinn         |  1.7   |              Mathematics               |
+|         Ennis Parker        |  0.0   |         Building Construction          |
+|        Nicole Lobdell       |  4.0   |                English                 |
+|         Esther Ezra         |  2.2   |              Mathematics               |
+|         Ben Haaland         |  3.1   |         Industrial Engineering         |
+|      Fidel Barrera Cruz     |  2.5   |              Mathematics               |
+|          Jiayin Jin         |  4.4   |              Mathematics               |
+|       Alexander Flood       |  2.5   |              Mathematics               |
+|        Chris Reinhard       |  4.8   |             Earth Science              |
+|        Andrew Marzoni       |  3.6   | Literature, Media, &amp; Communication |
+|        Omar Rodriguez       |  4.5   |               Management               |
+|      Matthew Barcaskey      |  3.0   |               Management               |
+|           Amy King          |  1.3   |                English                 |
+|       Michael Griffin       |  3.2   |                English                 |
+|        Donald Sampson       |  2.3   |              Mathematics               |
+|        Caroline Young       |  3.5   |                English                 |
+|          Xuan Wang          |  4.8   |              Mathematics               |
+|         Jerry Cherry        |  4.5   |           Leadership Studies           |
+|         Nathan Moon         |  4.7   |                History                 |
+|      Sneha Subramanian      |  4.8   |              Mathematics               |
+|        Youjiang Wang        |  1.5   |         Mechanical Engineering         |
+|       Georgia Persons       |  0.0   |             Public Policy              |
+|        George Burdell       |  5.0   |                English                 |
+|         Joshua King         |  4.5   |                English                 |
+|      Hamid Hassanzadeh      |  0.0   |            Computer Science            |
+|           Ruth Yow          |  5.0   |                English                 |
+|         Lukas Graber        |  4.0   |         Electrical Engineering         |
+|        Benjamin Klein       |  4.8   |         Electrical Engineering         |
+|         Seth Radman         |  5.0   |              Mathematics               |
+|       Ghassan Alregib       |  3.3   |         Electrical Engineering         |
+|        Sandra Pettit        |  5.0   |          Chemical Engineering          |
+|         David Marcus        |  2.6   |                 Arabic                 |
+|         Gregory Marr        |  5.0   |               Management               |
+|       Sarah Schoemann       |  3.0   |            Computer Science            |
+|       Daniel Kinnaird       |  0.0   |              Mathematics               |
+|         Gunter Sharp        |  1.5   |         Industrial Engineering         |
+|        Joshua Hussey        |  2.8   |                English                 |
+|       Enrique Susemihl      |  3.0   |         Mechanical Engineering         |
+|         Jean Ho Chu         |  0.0   |        CommunicationJournalism         |
+|          James Hays         |  5.0   |            Computer Science            |
+|       Lawerence Foster      |  3.5   |                History                 |
+|          Jim Sowell         |  2.5   |                Physics                 |
+|          Lei Zhang          |  3.0   |              Mathematics               |
+|       James JC Gumbart      |  3.7   |                Physics                 |
+|         Tonia Knobf         |  3.0   |              Engineering               |
+|         Jack Hanson         |  4.0   |              Mathematics               |
+|         Brian Swider        |  4.2   |               Management               |
+|          Umit Islak         |  3.5   |              Mathematics               |
+|      Andrew McCullough      |  2.3   |              Mathematics               |
+|         David Laband        |  4.0   |               Economics                |
+|       Ellen Stockstill      |  4.5   |                English                 |
+|       Chao Charlie Li       |  4.5   |            Modern Languages            |
+|          Ronghu Wu          |  3.9   |               Chemistry                |
+|       Juan MorenoCruz       |  0.0   |               Economics                |
+|       Michael Wiedorn       |  4.9   |                 French                 |
+|         Sarah OBrien        |  4.0   |                English                 |
+|         Peter Ralli         |  2.9   |              Mathematics               |
+|           Di Yang           |  0.0   |               Management               |
+|         Rosa Arriaga        |  5.0   |            Computer Science            |
+|         Roya Mesbah         |  3.5   |                 French                 |
+|        Joshua Kacher        |  3.7   |         Materials Engineering          |
+|        Lyndsay Brown        |  4.3   |                English                 |
+|       Megan Bernstein       |  1.6   |              Mathematics               |
+|        Prateek Bhakta       |  5.0   |              Mathematics               |
+|      Candace McCollough     |  4.7   |            Modern Languages            |
+|        Craig Zimring        |  5.0   |              Architecture              |
+|         Qingqing Liu        |  4.0   |              Mathematics               |
+|      Francesca Storici      |  0.0   |                Biology                 |
+|       Stephen Sprigle       |  5.0   |           Industrial Design            |
+|        Matthew Torres       |  3.5   |                Biology                 |
+|       Kristin Morrison      |  4.8   |               Psychology               |
+|         Joseph Ozmer        |  0.0   |             Public Policy              |
+|          Sejin Keem         |  3.3   |               Management               |
+|        Melissa Sexton       |  4.8   |                English                 |
+|        Kristin Gordon       |  3.5   |               Sociology                |
+|          Ruthie Yow         |  0.0   |                English                 |
+|         Monica Halka        |  5.0   |                Physics                 |
+|       YongTae Tony Kim      |  3.4   |         Mechanical Engineering         |
+|       Britney Schmidt       |  2.6   |       Environmental Engineering        |
+|         Julia Smith         |  2.0   |               Literature               |
+|         Erkang Zhou         |  5.0   |          Chemical Engineering          |
+|          John Dever         |  3.1   |              Mathematics               |
+|       Torin Greenwood       |  4.0   |              Mathematics               |
+|        Richard Lipton       |  3.3   |            Computer Science            |
+|       Harrison Ansley       |  0.0   |               Chemistry                |
+|       Charlie Brubaker      |  0.0   |            Computer Science            |
+|        Erick Maxwell        |  4.0   |         Electrical Engineering         |
+|      Tobias WilsonBates     |  3.0   |                English                 |
+|         James Rains         |  5.0   |         Biomedical Engineering         |
+|         Terry Sturm         |  2.5   |           Civil Engineering            |
+|       Benjamin Flowers      |  4.8   |              Architecture              |
+|        Baabak Ashuri        |  3.5   |           Civil Engineering            |
+|        Harvey Lipkin        |  4.0   |         Mechanical Engineering         |
+|        Douglas Ulmer        |  4.3   |              Mathematics               |
+|         Anna Ioanes         |  5.0   |                English                 |
+|        Jared Nisbett        |  5.0   |              Engineering               |
+|      Manos Antonakakis      |  0.0   |            Computer Science            |
+|        Benjamin Yang        |  5.0   |         Electrical Engineering         |
+|         Julien Meaud        |  3.0   |         Mechanical Engineering         |
+|      Sarah Higinbotham      |  5.0   |                English                 |
+|       Zachay Cheshire       |  0.0   |            Computer Science            |
+|         Laura Heflin        |  5.0   |             Health Science             |
+|        Michael Filler       |  3.0   |          Chemical Engineering          |
+|        Keith Kaseman        |  0.0   |              Architecture              |
+|       Balazs Strenner       |  4.3   |              Mathematics               |
+|        Antoine Caille       |  4.8   |                 French                 |
+|        Scott Spencer        |  4.4   |              Mathematics               |
+|       Benoit Montreuil      |  0.0   |         Industrial Engineering         |
+|        Garry Gabison        |  0.0   |             Public Policy              |
+|     Jennifer Forsthoefel    |  4.1   |                English                 |
+|        Gabriel Lovatt       |  4.0   |                English                 |
+|      Matthew Dischinger     |  4.3   |                English                 |
+|        Moe Trebuchon        |  5.0   |         Industrial Engineering         |
+|     Michael Northington     |  4.5   |              Mathematics               |
+|        Andrew Elhabr        |  0.0   |              Mathematics               |
+|        Marcel Celaya        |  2.8   |              Mathematics               |
+|       Caitlin Leverson      |  3.2   |              Mathematics               |
+|        Heather Smith        |  4.3   |              Mathematics               |
+|         Mishal Ahmed        |  3.8   |               Economics                |
+|          Laura Rios         |  4.0   |                Spanish                 |
+|         Mikel Viana         |  4.0   |              Mathematics               |
+|         Thomas Prag         |  2.8   |              Mathematics               |
+|         Yoan Delchev        |  4.8   |              Mathematics               |
+|    Padmavathi Srinivasan    |  2.7   |              Mathematics               |
+|       Rovoski Spicker       |  0.0   |                Russian                 |
+|        Jiangning Chen       |  4.4   |              Mathematics               |
+|        Peter Ludovice       |  3.0   |          Chemical Engineering          |
+|         Frank Pilipp        |  2.0   |            Modern Languages            |
+|       Michelle LaPlaca      |  3.0   |               Biomedical               |
+|       Christina Colvin      |  4.8   |                English                 |
+|         Osama Ghani         |  5.0   |              Mathematics               |
+|     Rebekah Fitzsimmons     |  2.4   |                English                 |
+|       Alexander Hoyer       |  5.0   |              Mathematics               |
+|        Owen Cantrell        |  4.0   |                English                 |
+|     Swapan Bhattacharya     |  0.0   |         Materials Engineering          |
+|       Kathryn Harrison      |  3.0   |                English                 |
+|        Ian Afflerbach       |  5.0   |                English                 |
+|         Andre Souza         |  2.5   |              Mathematics               |
+|           Le Song           |  1.5   |            Computer Science            |
+|        Jeffrey Hales        |  4.4   |               Accounting               |
+|         Malia Crane         |  5.0   |               Psychology               |
+|      Laurent Capolungo      |  5.0   |         Mechanical Engineering         |
+|        Bethany Jacobs       |  3.4   |                English                 |
+|         Livia Corsi         |  2.7   |              Mathematics               |
+|          Lin Jiang          |  2.0   |                Biology                 |
+|       Kate Holterhoff       |  4.5   |                English                 |
+|       Rudolph Gleason       |  2.2   |         Biomedical Engineering         |
+|        Chiaraq Zurla        |  0.0   |         Biomedical Engineering         |
+|     Elisabetta Matsumoto    |  2.2   |                Physics                 |
+|          Nga Lee Ng         |  4.0   |          Chemical Engineering          |
+|         Ali Sarioglu        |  3.7   |         Electrical Engineering         |
+|       Francesco Fedele      |  3.2   |           Civil Engineering            |
+|        Robert Kesler        |  3.0   |              Mathematics               |
+|        Amalia Culiuc        |  4.8   |              Mathematics               |
+|        Shivangi Jain        |  4.5   |               Psychology               |
+|        Tyler Harrison       |  5.0   |               Psychology               |
+|       Alexander Karner      |  3.0   |           Civil Engineering            |
+|        Andrea Krafft        |  2.3   |                English                 |
+|      Matthew Ventresca      |  5.0   |               Sociology                |
+|     Branislav Vidakovic     |  1.0   |         Industrial Engineering         |
+|         Mark Bolding        |  5.0   |              Mathematics               |
+|        Robert Kessler       |  3.0   |              Mathematics               |
+|        Michael Smith        |  1.9   |               Management               |
+|        Andrew Marzoni       |  0.0   |                English                 |
+|           Raj Pal           |  1.0   |         Aerospace Engineering          |
+|         Hannah Song         |  2.5   |         Biomedical Engineering         |
+|        Cameron Crotts       |  4.8   |                 Music                  |
+|         Kyoko Masuda        |  3.0   |              Linguistics               |
+|       Elsa Reichmanis       |  3.5   |          Chemical Engineering          |
+|         Wendy Kelly         |  2.3   |               Chemistry                |
+|          Chuanyi Ji         |  0.0   |         Electrical Engineering         |
+|        David Martinez       |  4.0   |               Psychology               |
+|        Anna Stenport        |  5.0   |          LiteratureMedia  Com          |
+|       Maysam Nezafati       |  4.5   |         Biomedical Engineering         |
+|         Ruizhen Chen        |  0.0   |          Chemical Engineering          |
+|          Yifeng Fan         |  4.8   |        Organizational Behavior         |
+|         Vitor Kamada        |  4.7   |               Management               |
+|        Siva Maguluri        |  3.5   |         Industrial Engineering         |
+|        Michael Kummer       |  0.0   |               Economics                |
+|          Qiqin Xie          |  3.7   |              Mathematics               |
+|           Hua Wang          |  2.0   |         Electrical Engineering         |
+|          John Buck          |  4.0   |         Electrical Engineering         |
+|          Omer Inan          |  5.0   |         Electrical Engineering         |
+|       Aakanksha Angra       |  2.7   |                Biology                 |
+|         Benjamin Ide        |  3.9   |              Mathematics               |
+|         Donna Kantak        |  3.7   |               Management               |
+|         Coskun Tekes        |  0.0   |         Mechanical Engineering         |
+|         John Etnyre         |  5.0   |              Mathematics               |
+|        Monica Miller        |  3.0   |                English                 |
+|        Jeffery Davis        |  4.6   |         Electrical Engineering         |
+|      Michael McCracken      |  0.0   |            Computer Science            |
+|       Camille Barchers      |  4.0   |              Architecture              |
+|        Sergio Tatarin       |  1.0   |              Mathematics               |
+|          Kyla Ross          |  4.5   |         Biomedical Engineering         |
+|        Taimour Wehbe        |  0.0   |         Electrical Engineering         |
+|        Andrea Rogers        |  4.0   |                English                 |
+|        Rebekah Greene       |  4.5   |          LiteratureMedia  Com          |
+|           Wei Wang          |  4.0   |                Chinese                 |
+|          Zhiqun Lin         |  4.0   |         Materials Engineering          |
+|          James Paul         |  2.2   |             Health Science             |
+|         Laura Eslava        |  2.4   |              Mathematics               |
+|         Justin Boone        |  5.0   |              Mathematics               |
+|         Ken Ferrier         |  4.3   |             Earth Science              |
+|         Casey Wilson        |  4.7   |                English                 |
+|          Rana Shabb         |  0.0   |         International Politics         |
+|         James Vangel        |  4.6   |                  ROTC                  |
+|        Joseph Hughes        |  3.3   |         Electrical Engineering         |
+|         David Citrin        |  4.5   |         Electrical Engineering         |
+|        Andrew Eichel        |  5.0   |        LiteratureMedia amp Com         |
+|         Katie Homar         |  2.2   |                English                 |
+|         Saad Bhamla         |  3.3   |          Chemical Engineering          |
+|        Randall Engle        |  0.0   |               Psychology               |
+|       Jenny Singleton       |  4.3   |               Psychology               |
+|        James Wilburn        |  0.0   |               Education                |
+|          Peter Cole         |  2.4   |              Mathematics               |
+|      William Doolittle      |  5.0   |         Electrical Engineering         |
+|        Benjamin Jones       |  4.6   |               Psychology               |
+|          Julie Weng         |  4.0   |                English                 |
+|        Nicholas Sturm       |  4.3   |                English                 |
+|        Youjiang Wang        |  1.3   |         Materials Engineering          |
+|         Ian Helfrich        |  5.0   |               Economics                |
+|          Jon Schmid         |  4.5   |         International Politics         |
+|       Chelsea Murdock       |  5.0   |                English                 |
+|          Larry Kimm         |  0.0   |          Systems Engineering           |
+|         Atalay Atasu        |  5.0   |               Management               |
+|        Austin Ladshaw       |  5.0   |           Civil Engineering            |
+|        Michael Miller       |  4.0   |         Aerospace Engineering          |
+|           Jong Lee          |  5.0   |                 Korean                 |
+|         Seth Porter         |  5.0   |        Communication/Journalism        |
+|        Maria Almanza        |  3.3   |                English                 |
+|    Daniel CastroLacouture   |  2.0   |         Building Construction          |
+|         Eric Condie         |  3.3   |               Accounting               |
+|         Hayley Evans        |  5.0   |            Computer Science            |
+|        Joshua Fisher        |  3.5   | Literature, Media, &amp; Communication |
+|         James Addcox        |  4.0   |                English                 |
+|         Ethan Hilton        |  4.8   |         Mechanical Engineering         |
+|        Lewis Wheaton        |  4.8   |                Biology                 |
+|        Jason Freeman        |  3.0   |                 Music                  |
+|     Evangelos Theodorou     |  3.0   |         Aerospace Engineering          |
+|           Eva Lee           |  1.3   |         Industrial Engineering         |
+|           Huan Xu           |  2.7   |         Industrial Engineering         |
+|           Rui Tuo           |  2.0   |         Industrial Engineering         |
+|        Basak Kalkanci       |  4.0   |               Management               |
+|        Patrick Ellis        |  4.3   |                English                 |
+|         Ronald Shenk        |  1.0   |              Mathematics               |
+|       Jacob Eisenstein      |  5.0   |            Computer Science            |
+|      Rachel DeanRuzicka     |  4.2   |                English                 |
+|        Daniel Kromer        |  0.0   |         Mechanical Engineering         |
+|       Margarita Holder      |  0.0   |               Psychology               |
+|          MinFeng Yu         |  3.6   |         Aerospace Engineering          |
+|       Kirill Lobachev       |  0.0   |                Biology                 |
+|        Lars Spuybroek       |  0.0   |              Architecture              |
+|        Stephen Ralph        |  0.0   |         Electrical Engineering         |
+|      Tanmay Rajpurohit      |  5.0   |         Aerospace Engineering          |
+|          Gongjie Li         |  0.0   |                Physics                 |
+|        Aaron Hackett        |  5.0   |               Management               |
+|        Hermann Fritz        |  5.0   |           Civil Engineering            |
+|        Marisa Atencio       |  0.0   |         International Politics         |
+|      Jonathan Paprocki      |  2.0   |              Mathematics               |
+|          SanHui Chi         |  0.0   |               Chemistry                |
+|        Vince Pedicino       |  5.0   |         International Politics         |
+|        Peter Simasek        |  5.0   |               Management               |
+|         Eunhee Sohn         |  3.7   |               Management               |
+|           Nian Liu          |  2.5   |          Chemical Engineering          |
+|        Jeannette Yen        |  3.0   |                Biology                 |
+|       Joseph Aldinger       |  2.3   | Literature, Media, &amp; Communication |
+|        Patrick Ellis        |  0.0   |      English amp Liberal Studies       |
+|        Kyle Harrigan        |  3.0   |            Computer Science            |
+|       Timothy Andersen      |  1.0   |            Computer Science            |
+|          Yajun Mei          |  2.4   |         Industrial Engineering         |
+|      Larissa Serdukova      |  4.1   |              Mathematics               |
+|         Juan Ramirez        |  5.0   |               Economics                |
+|    Sudhakar Yalamanchili    |  2.5   |         Electrical Engineering         |
+|         David Taylor        |  4.0   |         Electrical Engineering         |
+|          Xukai Yan          |  3.0   |              Mathematics               |
+|        Brian Kennedy        |  4.0   |                Physics                 |
+|         Amnon Besser        |  2.5   |              Mathematics               |
+|         Nishant Dass        |  1.0   |               Management               |
+|         Olga Remick         |  3.6   |               Management               |
+|         Melody Moore        |  0.0   |            Computer Science            |
+|     Shankar Venkataraman    |  4.5   |               Accounting               |
+|            Xi Mao           |  4.8   |               Economics                |
+|        Kate Zepernick       |  3.0   |               Management               |
+|        Stephen Steppe       |  0.0   |           Leadership Studies           |
+|    Christopher Le Dantec    |  2.0   | Literature, Media, &amp; Communication |
+|        Laurina Zhang        |  0.0   |               Management               |
+|           Taek Kim          |  5.0   |                 Korean                 |
+|      Sampath Kommandur      |  4.5   |         Mechanical Engineering         |
+|       Lisa Rosenstein       |  0.0   |           Civil Engineering            |
+|        Sheldon Jeter        |  3.8   |         Mechanical Engineering         |
+|        Will Gutekunst       |  4.8   |               Chemistry                |
+|        Yogendra Joshi       |  5.0   |         Mechanical Engineering         |
+|     Christopher Saldana     |  3.3   |         Mechanical Engineering         |
+|         Junzhuo Chen        |  0.0   |         Industrial Engineering         |
+|       Michael Baldwin       |  0.0   |         Mechanical Engineering         |
+|        William Smith        |  1.0   |         Electrical Engineering         |
+|       Theodore Harris       |  3.0   |         Electrical Engineering         |
+|          Lisa Babb          |  3.6   |           Industrial Design            |
+|       Stephen Chininis      |  4.3   |           Industrial Design            |
+|        Christina Choi       |  3.7   |           Industrial Design            |
+|         Elena Garcia        |  0.0   |         Aerospace Engineering          |
+|          Joonho Kim         |  0.0   |            Computer Science            |
+|         Hailong Chen        |  3.3   |              Engineering               |
+|         Xiaoliang Li        |  5.0   |            Modern Languages            |
+|      Yelena RiveraVale      |  1.0   |               Education                |
+|         Lauren Neefe        |  0.0   |                English                 |
+|          Alex Orso          |  0.0   |            Computer Science            |
+|         Jon Drysdale        |  5.0   |           Civil Engineering            |
+|         Cyrus Aidun         |  3.3   |         Mechanical Engineering         |
+|          James Park         |  3.0   |              Architecture              |
+|     Michele Lee Rosbruck    |  0.0   |             Health Science             |
+|         Andrew Young        |  1.0   |           Industrial Design            |
+|           Yian Yao          |  3.8   |              Mathematics               |
+|       Jeffrey Collins       |  0.0   |              Architecture              |
+|       ShyhChiang Shen       |  3.5   |         Electrical Engineering         |
+|         Xiaoliang Li        |  4.0   |                Chinese                 |
+|      Gregory Szalkowski     |  5.0   |          Nuclear Engineering           |
+|       Mohammed Nabhan       |  4.3   |         Industrial Engineering         |
+|          Dongho Cha         |  5.0   |                English                 |
+|         Ann Pearman         |  0.0   |               Psychology               |
+|        Richard Causey       |  3.0   |         Electrical Engineering         |
+|       Seung Soon Jang       |  4.8   |         Materials Engineering          |
+|         Dongwook Lim        |  5.0   |         Aerospace Engineering          |
+|         Sven Behrens        |  4.8   |          Chemical Engineering          |
+|         Joel Kostka         |  0.0   |                Biology                 |
+|       Shuenn Siang Ng       |  3.0   |              Mathematics               |
+|          Wenke Lee          |  4.0   |            Computer Science            |
+|        Brian Swenson        |  1.0   |              Engineering               |
+|      Adrian Bustamente      |  3.0   |              Mathematics               |
+|         David Scott         |  4.5   |           Civil Engineering            |
+|         Michael Best        |  0.0   |            Computer Science            |
+|         Byron Boots         |  3.0   |            Computer Science            |
+|       Richard Fujimoto      |  4.0   |            Computer Science            |
+|        Maria Chappell       |  2.2   |                English                 |
+|       Benjamin Shapiro      |  4.0   |            Computer Science            |
+|          Wenqian Hu         |  4.0   |               Accounting               |
+|       Reemon Silverman      |  4.5   |               Management               |
+|         Aharon Karon        |  2.0   |         Aerospace Engineering          |
+|     Timothy Kierzkowski     |  0.0   |              Mathematics               |
+|           Rui Han           |  4.8   |              Mathematics               |
+|         Ralph Latham        |  1.5   |         Aerospace Engineering          |
+|           Pian Shu          |  0.0   |               Management               |
+|        Sudipta Kolay        |  2.2   |              Mathematics               |
+|       Rebecca Burnett       |  4.0   |   Literature Media amp Communication   |
+|       Jonathan Shelley      |  3.0   | Literature, Media, &amp; Communication |
+|        Michael Helms        |  3.0   |            Computer Science            |
+|         Seung Chang         |  5.0   |                 Korean                 |
+|       Andrew Schrader       |  0.0   |         Mechanical Engineering         |
+|      Benjamin Bergholtz     |  4.4   |                English                 |
+|          Iris Yoon          |  5.0   |              Mathematics               |
+|           Yan Gao           |  5.0   |                Chinese                 |
+|        Harold Covert        |  2.7   |               Management               |
+|         Scott Braley        |  5.0   |         Building Construction          |
+|          Marc Smith         |  0.0   |               Management               |
+|         JunTao Duan         |  0.0   |              Mathematics               |
+|         Karen Wells         |  0.0   |             Health Science             |
+|          Cheol Eun          |  1.0   |               Management               |
+|          Yuchen He          |  5.0   |              Mathematics               |
+|        Jamie Cochran        |  2.0   |             Urban Planning             |
+|        Zachary Ghezzi       |  5.0   |       Psychology &amp; Sociology       |
+|         Jenna White         |  5.0   |             Public Policy              |
+|    Cassandra Kierzkowski    |  3.3   |              Mathematics               |
+|     Christopher Luettgen    |  4.0   |          Chemical Engineering          |
+|         Mary Conklin        |  1.0   |               Psychology               |
+|         Jingfei Liu         |  3.7   |         Biomedical Engineering         |
+|        Jose Carbajal        |  0.0   |         Industrial Engineering         |
+|          Dana Hamam         |  4.0   |        Organizational Behavior         |
+|        Georgene Geary       |  3.5   |           Civil Engineering            |
+|           Mary Fox          |  3.3   |             Public Policy              |
+|         Greg Gibson         |  4.0   |                Biology                 |
+|         Regan Lawson        |  4.0   |                Science                 |
+|        Mahmoud Dinar        |  1.0   |         Mechanical Engineering         |
+|       Verene Lancaster      |  0.0   |           Leadership Studies           |
+|         Dana Harari         |  5.0   |        Organizational Behavior         |
+|          James Moon         |  5.0   |               Management               |
+|    Konstantin Tikhomirov    |  0.0   |              Mathematics               |
+|         Eric Overby         |  4.5   |               Management               |
+|       Kristi Mehaffey       |  4.3   |         Mechanical Engineering         |
+|         Aaron Colton        |  4.0   |                English                 |
+|        Hyeryung Hwang       |  5.0   |                English                 |
+|       Francisco Robles      |  1.0   |         Biomedical Engineering         |
+|         Robin Prater        |  2.7   |              Architecture              |
+|         Chengzhi Shi        |  1.0   |         Mechanical Engineering         |
+|         Kaila Atkins        |  0.0   |               Psychology               |
+|       Amy Breidenthal       |  4.5   |               Management               |
+|         Geet Lahoti         |  0.0   |         Industrial Engineering         |
+|         King Jordan         |  0.0   |                Biology                 |
+|         Aaron Young         |  0.0   |         Mechanical Engineering         |
+|        Marc Stieglitz       |  1.0   |           Civil Engineering            |
+|           Yong Cho          |  4.0   |           Civil Engineering            |
+|       Randall Guensler      |  4.0   |           Civil Engineering            |
+|          Iris Tien          |  5.0   |           Civil Engineering            |
+|         Susan Burns         |  0.0   |           Civil Engineering            |
+|       Brian McGreggor       |  0.0   |            Computer Science            |
+|         Dima Nazzal         |  1.0   |         Industrial Engineering         |
+|     Christopher Valenta     |  3.3   |         Electrical Engineering         |
+|        Marta Hatzell        |  4.2   |         Mechanical Engineering         |
+|       Stephen LeeUrban      |  5.0   |            Computer Science            |
+|        Kristi Walker        |  0.0   |            Computer Science            |
+|           Di Wang           |  2.0   |            Computer Science            |
+|       Bernard Kippelen      |  5.0   |         Electrical Engineering         |
+|           Ting Zhu          |  4.0   |         Mechanical Engineering         |
+|          Yufeng Cao         |  0.0   |         Industrial Engineering         |
+|       Suresh Sundaram       |  2.7   |         Electrical Engineering         |
+|         Fumin Zhang         |  2.0   |         Electrical Engineering         |
+|     Sebastian Fernandez     |  5.0   |              Mathematics               |
+|       Beste Basciftci       |  0.0   |         Industrial Engineering         |
+|           Dori Pap          |  3.0   |           Leadership Studies           |
+|        Amelia Lambeth       |  5.0   |            Computer Science            |
+|          Asif Khan          |  1.0   |         Electrical Engineering         |
+|       Natashia Boland       |  4.0   |         Industrial Engineering         |
+|        Andrew Adelman       |  5.0   |               Psychology               |
+|       Sherie Randolph       |  4.0   |                History                 |
+|         Andras Danis        |  5.0   |               Management               |
+|          Yuhang Hu          |  4.0   |         Mechanical Engineering         |
+|           John Luh          |  1.0   |           Civil Engineering            |
+|        German Vergara       |  0.0   |               Sociology                |
+|         Chad Slieper        |  0.0   |             Public Policy              |
+|         Xianda Shen         |  4.0   |              Engineering               |
+|      Emanuele Massetti      |  5.0   |             Public Policy              |
+|      Michelle Rinehart      |  4.3   |              Architecture              |
+|       Keith McGreggor       |  4.0   |            Computer Science            |
+|         Lutz Warnke         |  5.0   |              Mathematics               |
+|       Santosh Vempala       |  5.0   |            Computer Science            |
+|         Paul Foster         |  0.0   |                Chinese                 |
+|        Mikulas Fabry        |  4.0   |         International Politics         |
+|         Tige Kinsey         |  5.0   |              Mathematics               |
+|         Brandon Lay         |  0.0   |               Management               |
+|           Koki Ho           |  5.0   |         Aerospace Engineering          |
+|           Jing Hao          |  2.7   |              Mathematics               |
+|           Yoav Len          |  1.6   |              Mathematics               |
+|        Aaron Anderson       |  0.0   |            Computer Science            |
+|         Sean Crowley        |  5.0   |            Computer Science            |
+|        Zhangxian Yuan       |  3.0   |         Aerospace Engineering          |
+|      Lavanya Rishishwar     |  0.0   |                Biology                 |
+|        Stephen McKean       |  5.0   |              Mathematics               |
+|           Tim Cope          |  4.0   |                Biology                 |
+|        Allison Shimko       |  5.0   |                History                 |
+|      Erna Begovic Kovac     |  5.0   |              Mathematics               |
+|        Amanda Coulter       |  4.3   |        CommunicationJournalism         |
+|        Justin Burkett       |  4.3   |               Economics                |
+|      Tracy BootheMiller     |  0.0   |           Civil Engineering            |
+|        James Cannady        |  1.0   |            Computer Science            |
+|       Sucheta Ghoshal       |  2.0   |            Computer Science            |
+|        Alison Shimko        |  0.0   |                History                 |
+|         Xiuwei Zhang        |  3.0   |            Computer Science            |
+|         YiChang Tsai        |  0.0   |           Civil Engineering            |
+|          Paul Mayne         |  0.0   |           Civil Engineering            |
+|       Joshua McDonald       |  5.0   |         Industrial Engineering         |
+|      Dorothea Coblentz      |  5.0   |                English                 |
+|          Sam Coogan         |  4.0   |           Civil Engineering            |
+|       Courtney Crooks       |  4.2   |               Psychology               |
+|         Julie Linsey        |  0.0   |         Mechanical Engineering         |
+|          Alan Marco         |  3.0   |               Economics                |
+|         John Taylor         |  0.0   |           Civil Engineering            |
+|           Yun Hur           |  0.0   |               Management               |
+|       Rampi Ramprasad       |  0.0   |         Materials Engineering          |
+|         Qiushi Zhai         |  5.0   |             Earth Science              |
+|     Esfandiar Behravesh     |  2.0   |         Biomedical Engineering         |
+|         Kurt Belgum         |  5.0   |                English                 |
+|       Brajesh Samarth       |  5.0   |              Linguistics               |
+|          Kisun Lee          |  4.0   |              Mathematics               |
+|        Deborah Abrams       |  0.0   |               Management               |
+|       Timothy Holloway      |  0.0   |               Management               |
+|       Anthony Harding       |  5.0   |               Economics                |
+|          Hajoong Jo         |  0.0   |         Biomedical Engineering         |
+|         Laura Taylor        |  4.0   |               Economics                |
+|       Rachel Cummings       |  0.0   |         Industrial Engineering         |
+|        Michael Polak        |  5.0   |             Public Policy              |
+|          Chen Zhou          |  2.0   |         Industrial Engineering         |
+|        Anna Weisling        |  4.0   | Literature, Media, &amp; Communication |
+|         Lily Cheung         |  1.6   |          Chemical Engineering          |
+|          Yukai Yan          |  3.0   |              Mathematics               |
+|         Donggang Yao        |  5.0   |         Materials Engineering          |
+|       Andriy Shapoval       |  0.0   |               Management               |
+|        Samantha Petti       |  3.5   |              Mathematics               |
+|       Michael Klimenco      |  0.0   |               Economics                |
+|          Junqui Hu          |  1.0   |         Industrial Engineering         |
+|     Karthik Ramachandran    |  0.0   |               Management               |
+|         Woonhong Yeo        |  4.0   |         Mechanical Engineering         |
+|         Geiguen Shin        |  1.3   |           Political Science            |
+|           Junqi Hu          |  3.0   |         Industrial Engineering         |
+|         Guanghui Lan        |  1.0   |         Industrial Engineering         |
+|      Jonathan Beardsley     |  4.0   |              Mathematics               |
+|        Thomas Orlando       |  0.0   |               Chemistry                |
+|          Young Jang         |  5.0   |                Biology                 |
+|       Anirban Mazumdar      |  0.0   |         Mechanical Engineering         |
+|          Zvi Galil          |  0.0   |            Computer Science            |
+|      Brandon Coloacuten     |  0.0   |         Aerospace Engineering          |
+|          Jared Ivey         |  4.0   |         Electrical Engineering         |
+|          Agniva Roy         |  4.8   |              Mathematics               |
+|         Comas Haynes        |  3.0   |         Mechanical Engineering         |
+|         Tony Harding        |  0.0   |               Economics                |
+|        Herb Velazquez       |  4.0   |           Industrial Design            |
+|        Laurie Garrow        |  4.7   |           Civil Engineering            |
+|       Heather Chilton       |  4.3   |             Earth Science              |
+|         Anish Menon         |  0.0   |               Accounting               |
+|          Ken Barker         |  4.0   |                Physics                 |
+|    Katsiaryna Siamionava    |  4.0   |   Information Technology Management    |
+|      Christopher Hardy      |  0.0   |           Industrial Design            |
+|         Eric Corbett        |  3.5   | Literature, Media, &amp; Communication |
+|           Taka Ito          |  5.0   |             Earth Science              |
+|        Stanley Broome       |  5.0   |               Management               |
+|          JyeChyi Lu         |  4.0   |         Industrial Engineering         |
+|         Alfred Meek         |  0.0   |             Public Policy              |
+|          Nick Perez         |  4.0   |               Technology               |
+|        Alessio Medda        |  1.0   |         Electrical Engineering         |
+|         Youngho Yoo         |  4.8   |              Mathematics               |
+|         Ceara Byrne         |  0.0   |            Computer Science            |
+|      Katherine Skinner      |  3.5   |         Aerospace Engineering          |
+|        Muhannad Bakir       |  5.0   |         Electrical Engineering         |
+|         Ronald Arkin        |  3.0   |            Computer Science            |
+|        Mayya Zhilova        |  1.0   |              Mathematics               |
+|         Nathan Frank        |  5.0   |                 Music                  |
+|          Derek Lee          |  0.0   | Literature, Media, &amp; Communication |
+|       Smita Daftardar       |  4.0   |              Linguistics               |
+|        Devesh Ranjan        |  4.5   |         Mechanical Engineering         |
+|         Edward Balog        |  2.0   |                Biology                 |
+|   Adrian Perez Bustamante   |  2.0   |              Mathematics               |
+|           Suyun Wu          |  4.0   |               Accounting               |
+|         Chungjae Lee        |  5.0   |         Industrial Engineering         |
+|       Courtney Garvin       |  5.0   |           Industrial Design            |
+|          John White         |  0.0   |           Industrial Design            |
+|         Xiaofan Yuan        |  2.0   |              Mathematics               |
+|        Gabriel Kwong        |  5.0   |         Biomedical Engineering         |
+|       Stephanie Reikes      |  5.0   |              Mathematics               |
+|         Michael West        |  4.0   |         Electrical Engineering         |
+|        Amanda Brewer        |  0.0   |                History                 |
+|        Bradford Baker       |  5.0   |               Management               |
+|            Bo Kim           |  0.0   |              Linguistics               |
+|          Sven Simon         |  5.0   |             Earth Science              |
+|        Todd Fernandez       |  5.0   |         Biomedical Engineering         |
+|         Mark Leibert        |  1.0   | Literature, Media, &amp; Communication |
+|     Marguerite Matherne     |  5.0   |         Mechanical Engineering         |
+|        ChingHua Huang       |  4.0   |       Environmental Engineering        |
+|        Yongsheng Chen       |  2.0   |       Environmental Engineering        |
+|         Ryan Sherman        |  4.0   |           Civil Engineering            |
+|       William Ratcliff      |  5.0   |                Biology                 |
+|         Bruce Walker        |  0.0   |               Psychology               |
+|       Richard Henneman      |  0.0   |            Computer Science            |
+|     Christopher Hertzog     |  0.0   |               Psychology               |
+|        Amit Jariwala        |  0.0   |         Mechanical Engineering         |
+|        Sangwon Leigh        |  0.0   |           Industrial Design            |
+|       Emily Muntildeoz      |  0.0   |                Physics                 |
+|      Shubhobrata Palit      |  0.0   |               Management               |
+|        Joe Mendelson        |  5.0   |                Biology                 |
+|         Joy Arulraj         |  1.0   |            Computer Science            |
+|        Andrea Jonsson       |  5.0   |                 French                 |
+|       Elizabeth Mynatt      |  0.0   |            Computer Science            |
+|       William Warihay       |  0.0   |             Public Policy              |
+|          Wuchen Li          |  4.3   |              Mathematics               |
+|      Stephanie Merrick      |  0.0   |       Psychology &amp; Sociology       |
+|        Toschia Hogan        |  1.0   |        Organizational Behavior         |
+|     Diane Alleva Caceres    |  3.5   |               Management               |
+|        Tibor Besedes        |  3.5   |               Economics                |
+|         Richard Utz         |  5.0   | Literature, Media, &amp; Communication |
+|       Charles Rudolph       |  4.0   |              Architecture              |
+|         Leah Misemer        |  4.6   |                English                 |
+|        Albert Frazier       |  3.0   |         Electrical Engineering         |
+|        Kerry Wallaert       |  4.0   |         Materials Engineering          |
+|       Rosario Gerhardt      |  1.8   |         Materials Engineering          |
+|       Jennifer Hasler       |  1.3   |         Electrical Engineering         |
+|        Chaitanya Deo        |  2.5   |          Nuclear Engineering           |
+|      Nora CottilleFoley     |  5.0   |            Modern Languages            |
+|         Karim Sabra         |  4.4   |         Mechanical Engineering         |
+|       Angus Wilkinson       |  3.9   |               Chemistry                |
+|           Wei Sun           |  5.0   |         Biomedical Engineering         |
+|       Kate Pride Brown      |  4.0   |               Sociology                |
+|        Robert Kirkman       |  3.1   |             Public Policy              |
+|       Shuichi Takayama      |  0.0   |         Biomedical Engineering         |
+|         Lisa Yaszek         |  4.7   |     English &amp; Liberal Studies      |
+|         KokMeng Lee         |  3.9   |         Mechanical Engineering         |
+|         Kate Kidwell        |  5.0   |               Psychology               |
+|         Alice Favero        |  5.0   |             Public Policy              |
+|           Min Zhou          |  4.5   |         Mechanical Engineering         |
+|      Melissa Pilkington     |  4.8   |            Modern Languages            |
+|        Xi Jason Kuang       |  3.9   |               Accounting               |
+|            Xin Gu           |  2.0   |               Economics                |
+|        Thomas Ploetz        |  0.0   |            Computer Science            |
+|          Cheng Zhu          |  2.0   |         Biomedical Engineering         |
+|         Minami Yoda         |  2.2   |         Mechanical Engineering         |
+|        Audrey Duarte        |  2.0   |               Psychology               |
+|         Jay Telotte         |  1.5   | Literature, Media, &amp; Communication |
+|        Frank Hammond        |  4.0   |         Mechanical Engineering         |
+|       Wade Bloomquist       |  4.3   |              Mathematics               |
+|       Natasha Anthony       |  5.0   |                Russian                 |
+|       Leila Aflatoony       |  2.7   |           Industrial Design            |
+|        Robert Ashwill       |  3.7   |               Psychology               |
+|          YeHwa Chen         |  3.2   |         Mechanical Engineering         |
+|         YiChang Chen        |  2.5   |              Mathematics               |
+|       Ellen Murkinson       |  5.0   |          Chemical Engineering          |
+|          Diyi Yang          |  3.5   |            Computer Science            |
+|           Wayne Li          |  3.3   |           Industrial Design            |
+|        Mathieu Dahan        |  4.5   |         Industrial Engineering         |
+|        Keith Edwards        |  3.2   |            Computer Science            |
+|        John Thornton        |  5.0   | Literature, Media, &amp; Communication |
+|         Tahseen Kazi        |  2.5   |         International Politics         |
+|        Hang Jerry Qi        |  3.7   |         Mechanical Engineering         |
+|         Carlos Silva        |  2.3   |               Chemistry                |
+|         Biing Juang         |  3.0   |         Electrical Engineering         |
+|       Philip Auslander      |  2.6   |                English                 |
+|       Mariel Borowitz       |  3.7   |         International Politics         |
+|       Manoj Deshpande       |  5.0   | Literature, Media, &amp; Communication |
+|         Haomin Zhou         |  3.5   |              Mathematics               |
+|       Joycelyn Wilson       |  3.2   | Literature, Media, &amp; Communication |
+|          John Smith         |  4.5   |                History                 |
+|        Julie Lindsey        |  0.0   |                Physics                 |
+|         David Smith         |  2.6   |            Computer Science            |
+|           David Hu          |  2.6   |              Mathematics               |
+|        Gina Kruschek        |  2.7   | Literature, Media, &amp; Communication |
+|     Parisa Yousefi Zowj     |  3.0   |         Industrial Engineering         |
+|         Charles Kemp        |  4.0   |         Biomedical Engineering         |
+|       David Safranski       |  4.0   |         Materials Engineering          |
+|    Hector Banos Cervantes   |  4.7   |              Mathematics               |
+|          David Kent         |  5.0   |            Computer Science            |
+|        Michael Damron       |  4.3   |              Mathematics               |
+|         Clio Andris         |  5.0   |             Urban Planning             |
+|        Sudheer Chava        |  1.5   |               Management               |
+|          John Wise          |  4.4   |                Physics                 |
+|         Justin Chen         |  2.6   |              Mathematics               |
+|         David Garton        |  3.2   |                Biology                 |
+|       Paul Verhaeghen       |  4.9   |               Psychology               |
+|     Ingeborg SchmidtKrey    |  4.0   |               Chemistry                |
+|         Umit Catalyu        |  0.0   |            Computer Science            |
+|       Umit Catalyurek       |  0.0   |            Computer Science            |
+|    Athanasios Mantalaris    |  2.5   |         Biomedical Engineering         |
+|         Chloe Arson         |  4.4   |           Civil Engineering            |
+|        Lauren Steimle       |  5.0   |         Industrial Engineering         |
+|       Milos Prvulovic       |  4.5   |            Computer Science            |
+|      Alexandros Daglis      |  5.0   |            Computer Science            |
+|          Jiani Zhu          |  5.0   |               Management               |
+|        Jeffrey Howard       |  4.5   |                English                 |
+|       Brad Rittenhouse      |  4.0   |                English                 |
+|       David Devecsery       |  5.0   |            Computer Science            |
+|         Richard Peng        |  4.0   |            Computer Science            |
+|         Michael Loss        |  3.9   |              Mathematics               |
+|            Bo Lin           |  2.0   |              Mathematics               |
+|          Ari Glezer         |  3.7   |         Mechanical Engineering         |
+|         Annika Orich        |  5.0   |                 German                 |
+|     Karie DavisNozemack     |  4.6   |               Management               |
+|          Shuyi Nie          |  3.0   |                Biology                 |
+|        Robert Griffin       |  5.0   |               Literature               |
+|         Sourabh Saha        |  4.5   |         Mechanical Engineering         |
+|      Alexander Alexeev      |  0.0   |         Mechanical Engineering         |
+|        Gregory Zinman       |  5.0   |        English  Liberal Studies        |
+|         Vivek Madan         |  4.5   |            Computer Science            |
+|        Haiying Huang        |  4.0   |           Civil Engineering            |
+|        Tequila Harris       |  2.9   |         Mechanical Engineering         |
+|         Josephine Yu        |  3.6   |              Mathematics               |
+|          Sung Kang          |  3.7   |              Mathematics               |
+|        Chongchun Zeng       |  2.2   |              Mathematics               |
+|       Dobromir Rahnev       |  4.5   |               Psychology               |
+|        Yury Chernoff        |  2.7   |                Biology                 |
+|        Paul Benkeser        |  2.4   |               Biomedical               |
+|         Reza Farhadi        |  4.0   |               Management               |
+|     Christian CubaTorres    |  4.5   |          Chemical Engineering          |
+|        Lawrence Rubin       |  4.5   |         International Politics         |
+|       Rachel Whitlark       |  4.0   |         International Politics         |
+|        Tingting Tong        |  4.4   |               Economics                |
+|     Netanel Friedenberg     |  1.8   |              Mathematics               |
+|        Joseph Le doux       |  3.8   |         Biomedical Engineering         |
+|          Henry Owen         |  5.0   |         Electrical Engineering         |
+|        Daniel Schiff        |  5.0   |             Public Policy              |
+|         Brandy Blake        |  3.9   |                English                 |
+|         David Young         |  5.0   | Literature, Media, &amp; Communication |
+|         Martin Short        |  4.0   |              Mathematics               |
+|         Terry Nelms         |  0.0   |            Computer Science            |
+|        Travis Denton        |  0.0   | Literature, Media, &amp; Communication |
+|          Allen Hyde         |  4.5   |               Sociology                |
+|        Mary McDonald        |  5.0   |               Sociology                |
+|       Jeffrey Streator      |  3.4   |         Mechanical Engineering         |
+|         Yuanzhi Tang        |  5.0   |             Earth Science              |
+|          James Wray         |  3.7   |             Earth Science              |
+|   AnneFrancoise Le Lostec   |  4.0   |                 German                 |
+|         Yingjie Liu         |  2.0   |              Mathematics               |
+|       Kathleen Schaag       |  4.8   | Literature, Media, &amp; Communication |
+|        Gregory Abowd        |  4.0   |            Computer Science            |
+|       Denis Tsygankov       |  2.8   |         Biomedical Engineering         |
+|        Joyelle Harris       |  2.0   |           Leadership Studies           |
+|       Joseph Oefelein       |  5.0   |         Aerospace Engineering          |
+|        Natalie Huang        |  4.2   |               Management               |
+|          Jianbo Cui         |  3.4   |              Mathematics               |
+|        Santosh Pande        |  4.0   |            Computer Science            |
+|        Willie Belton        |  3.7   |               Economics                |
+|         Anne Fuller         |  2.8   |               Management               |
+|        John Cressler        |  4.7   |         Electrical Engineering         |
+|        Daniel Weagley       |  0.0   |               Management               |
+|          Neha Garg          |  3.5   |               Chemistry                |
+|        Michael Lacey        |  2.6   |              Mathematics               |
+|         Donald Doyle        |  2.5   |               Chemistry                |
+|     Christopher Simpkins    |  3.7   |            Computer Science            |
+|         James Howard        |  5.0   | Literature, Media, &amp; Communication |
+|       Kenneth Knoespel      |  3.0   | Literature, Media, &amp; Communication |
+|         Dana Randall        |  4.3   |            Computer Science            |
+|          Bob Waters         |  4.1   |            Computer Science            |
+|          Bill Leahy         |  4.1   |            Computer Science            |
+|         Charles Byrd        |  5.0   |            Computer Science            |
+|         Lara Martin         |  4.0   |            Computer Science            |
+|           PK Yeung          |  3.9   |         Aerospace Engineering          |
+|         Allan Nguyen        |  5.0   |            Computer Science            |
+|        Dave Lillethun       |  3.0   |            Computer Science            |
+|       Sasha Boldyreva       |  2.1   |            Computer Science            |
+|         Andi Coulter        |  5.0   | Literature, Media, &amp; Communication |
+|        Stephen Ruffin       |  3.3   |              Engineering               |
+|          Jimeng Sun         |  0.0   |            Computer Science            |
+|         Katherine Fu        |  3.8   |         Mechanical Engineering         |
+|       Christopher Carr      |  0.0   |             Earth Science              |
+|        Anderson Smith       |  2.3   |               Psychology               |
+|        Thomas Fuller        |  5.0   |          Chemical Engineering          |
+|      Clifford Lipscomb      |  5.0   |           Political Science            |
+|         Thad Starner        |  4.0   |            Computer Science            |
+|        Matthieu Bloch       |  5.0   |         Electrical Engineering         |
+|        Christine Ries       |  2.1   |               Economics                |
+|          Amy DUnger         |  4.8   |               Sociology                |
+|         Preet Singh         |  3.6   |         Materials Engineering          |
+|         Bonnie Ferri        |  2.1   |         Electrical Engineering         |
+|         Manasa Gopal        |  0.0   |               Management               |
+|         Doug Blough         |  3.7   |         Electrical Engineering         |
+|         Yuhang Wang         |  0.0   |             Earth Science              |
+|        Hanif Hoseini        |  4.3   |         Aerospace Engineering          |
+|        Samantha Parks       |  3.3   |                Biology                 |
+|         Suzanne Lee         |  3.4   |               Management               |
+|         Arun Gokhale        |  2.2   |         Materials Engineering          |
+|         Sara Dommer         |  4.0   |               Management               |
+|         Julie Linsey        |  3.1   |              Engineering               |
+|        Lakshmi Sankar       |  4.5   |              Engineering               |
+|          JVR Prasad         |  4.0   |         Aerospace Engineering          |
+|         James Kenney        |  4.5   |         Electrical Engineering         |
+|      Tatiana Kozhanova      |  5.0   |                 French                 |
+|         Nabid Farvez        |  5.0   |         Electrical Engineering         |
+|       Matthew Gombolay      |  5.0   |            Computer Science            |
+|         Mohit Singh         |  4.5   |         Industrial Engineering         |
+|        Leon McGinnis        |  4.0   |         Industrial Engineering         |
+|        Lynn Patterson       |  3.5   |           Civil Engineering            |
+|       Dawn Strickland       |  5.0   |         Industrial Engineering         |
+|       Joshua Kretchmer      |  0.0   |               Chemistry                |
+|          Xiaoli Ma          |  2.0   |         Electrical Engineering         |
+|         Kirk Bowman         |  4.5   |           Political Science            |
+|        Eliza Markley        |  3.8   |         International Politics         |
+|        Danielle Geary       |  4.8   |                Spanish                 |
+|         FeiLing Wang        |  4.0   |         International Politics         |
+|      Claire Greenstein      |  5.0   |         International Politics         |
+|     Cecilia MontesAlcala    |  4.8   |            Modern Languages            |
+|         Brian Hammer        |  0.0   |                Biology                 |
+|        Vincent Mooney       |  0.0   |         Electrical Engineering         |
+|       Steven Usselman       |  4.2   |                History                 |
+|        Milton Mueller       |  4.5   |             Public Policy              |
+|      Richard Catrambone     |  3.8   |               Psychology               |
+|        Joseph Salyer        |  5.0   |                English                 |
+|          Jake Soper         |  3.5   |               Chemistry                |
+|         Chris Moore         |  5.0   |                 Music                  |
+|        Mark Prausnitz       |  4.5   |          Chemical Engineering          |
+|         John Blazeck        |  4.6   |          Chemical Engineering          |
+|        Jonathan Lowe        |  4.7   |         Industrial Engineering         |
+|           Qi Wang           |  3.8   | Literature, Media, &amp; Communication |
+|         Peter Swire         |  5.0   |             Public Policy              |
+|      Jaroslaw Rossignac     |  3.4   |            Computer Science            |
+|    Hayri Dortdivanlioglu    |  0.0   |              Architecture              |
+|       Jennifer Curtis       |  3.1   |                Physics                 |
+|        Willie Pearson       |  3.5   |               Sociology                |
+|           Yao Yao           |  4.6   |              Mathematics               |
+|       Roman Grigoriev       |  4.0   |                Physics                 |
+|       Federico Bonetto      |  1.7   |              Mathematics               |
+|        JungHwan Park        |  3.5   |              Mathematics               |
+|         Daniel Dench        |  0.0   |               Economics                |
+|          Seung Lee          |  0.0   |               Economics                |
+|       Elizabeth LeRud       |  5.0   |                English                 |
+|      Peter Loutzenhiser     |  2.7   |         Mechanical Engineering         |
+|       Kamran Paynabar       |  4.5   |         Industrial Engineering         |
+|        Gordon Stuber        |  3.9   |         Electrical Engineering         |
+|       Ayanna Cummings       |  4.5   |               Psychology               |
+|        Anjali Bohlken       |  4.0   |           Political Science            |
+|    Brendan Saltaformaggio   |  4.7   |         Electrical Engineering         |
+|         Doug Bodner         |  4.4   |         Industrial Engineering         |
+|      John Papastavridis     |  1.6   |         Mechanical Engineering         |
+|       Timothy Brothres      |  5.0   |         Electrical Engineering         |
+|           Dong Qin          |  3.7   |         Materials Engineering          |
+|        Justin Biddle        |  4.5   |             Public Policy              |
+|         Carl Johnson        |  1.0   |         Aerospace Engineering          |
+|         Colin Parker        |  2.8   |                Physics                 |
+|        Robert Meyers        |  4.0   |               Management               |
+|         Jan Uelzmann        |  4.6   |                 German                 |
+|          Bert Bras          |  1.0   |         Mechanical Engineering         |
+|        Jenny McGuire        |  3.3   |                Biology                 |
+|          Lisa Marks         |  5.0   |           Industrial Design            |
+|          Enlu Zhou          |  3.3   |         Industrial Engineering         |
+|         Brian German        |  4.8   |           Aerospace Studies            |
+|      Danielle Willkens      |  2.3   |              Architecture              |
+|         Deven Desai         |  4.7   |               Management               |
+|   Marius Florin Niculescu   |  4.5   |   Information Technology Management    |
+|         John McCuan         |  2.5   |              Mathematics               |
+|        Daniel Phelps        |  4.0   | Literature, Media, &amp; Communication |
+|       Satomi Chenoweth      |  4.3   |                Japanese                |
+|        Marissa Loving       |  4.8   |              Mathematics               |
+|           Ann Teh           |  4.2   |             Health Science             |
+|        Krishan Ahuja        |  4.1   |         Aerospace Engineering          |
+|      Alexandra Muscalus     |  5.0   |           Civil Engineering            |
+|       Anant Paravastu       |  3.7   |          Chemical Engineering          |
+|      Alexandra Edwards      |  4.2   |                English                 |
+|          HyounA Joo         |  5.0   |                 German                 |
+|       Katherine Koppe       |  4.2   |                 German                 |
+|           Hui Zhu           |  4.2   |               Chemistry                |
+|       Galyna Livshyts       |  2.4   |              Mathematics               |
+|        Claire Berger        |  2.4   |                Physics                 |
+|       Henry La Pierre       |  3.2   |               Chemistry                |
+|       Martin Maldovan       |  0.0   |          Chemical Engineering          |
+|        Alena Alamgir        |  0.0   |         Materials Engineering          |
+|       Matthew McDowell      |  5.0   |         Materials Engineering          |
+|         Chris Martin        |  0.0   |         Biomedical Engineering         |
+|       Daniel Matisoff       |  3.3   |           Political Science            |
+|        Jesse McDaniel       |  2.5   |               Chemistry                |
+|    Phanish Suryanarayana    |  2.7   |              Engineering               |
+|        Himani Sharma        |  0.0   |         Materials Engineering          |
+|      Marisabel Marratt      |  2.0   |              Architecture              |
+|        Daniel Molzahn       |  5.0   |         Electrical Engineering         |
+|      Kathryn Holmstrom      |  1.3   |               Accounting               |
+|       Christina Ragan       |  5.0   |                Science                 |
+|         Mary Holder         |  3.1   |               Psychology               |
+|         Brian Gunter        |  3.7   |         Aerospace Engineering          |
+|        Susana Morris        |  5.0   |               Literature               |
+|         Monica Sweat        |  3.9   |            Computer Science            |
+|       Yanni Loukissas       |  3.1   |               Literature               |
+|       Jessica Roberts       |  5.0   |            Computer Science            |
+|          Taesoo Kim         |  3.0   |            Computer Science            |
+|          Matt Baker         |  5.0   |              Mathematics               |
+|        Masato Kikuchi       |  5.0   |                Japanese                |
+|        Vikrant Kamble       |  2.0   |               Economics                |
+|          Liang Han          |  3.7   |                Biology                 |
+|        Jennifer Glass       |  4.3   |             Earth Science              |
+|        Saba Colakoglu       |  3.3   |               Management               |
+|        Sashank Varma        |  4.0   |            Computer Science            |
+|         Amy Bruckman        |  5.0   |            Computer Science            |
+|        Allen Robinson       |  3.6   |         Electrical Engineering         |
+|         William Hunt        |  3.8   |         Electrical Engineering         |
+|       Aaron Lanterman       |  4.1   |              Engineering               |
+|        Stuart Graham        |  2.8   |               Management               |
+|          Jung Choi          |  3.4   |                Biology                 |
+|      Thomas DiChristina     |  0.0   |                Biology                 |
+|          Wasif Khan         |  0.0   |         Electrical Engineering         |
+|         Amit Prasad         |  4.0   |        History &amp; Sociology         |
+|        Adjo Amekudzi        |  4.0   |           Civil Engineering            |
+|        Annalise Paaby       |  3.8   |                Biology                 |
+|           Xing Xie          |  5.0   |       Environmental Engineering        |
+|         Alonzo Whyte        |  4.5   |                Biology                 |
+|        Valeria Milam        |  3.6   |         Materials Engineering          |
+|       Courtney Hoffman      |  4.2   |                English                 |
+|        Benjamin Diden       |  4.8   |                 Music                  |
+|        Martha Grover        |  2.0   |          Chemical Engineering          |
+|         Aaron Levine        |  4.1   |             Public Policy              |
+|       Johannes Leisen       |  3.0   |         Biomedical Engineering         |
+|         Andre Calmon        |  5.0   |               Management               |
+|        Krystina Madej       |  2.6   |        English  Liberal Studies        |
+|         Ahmed Ahmed         |  5.0   |                 Arabic                 |
+|         Rick Thomas         |  4.3   |               Psychology               |
+|         Blake Leland        |  3.9   |               Literature               |
+|         Bohong Cheng        |  5.0   |            Computer Science            |
+|        Whitney Buser        |  3.0   |               Economics                |
+|        Daniel Spieler       |  2.6   |               Psychology               |
+|        David Rocklin        |  3.5   |                Physics                 |
+|       Mirjana Brockett      |  3.7   |                Biology                 |
+|         Howard Weiss        |  5.0   |               Psychology               |
+|        David Schimmel       |  3.1   |         Electrical Engineering         |
+|         Mimi Ensley         |  4.8   |                English                 |
+|         Larry Jacobs        |  4.8   |              Engineering               |
+|      Levent Degertekin      |  2.7   |         Electrical Engineering         |
+|           Thang Le          |  3.1   |              Mathematics               |
+|        Marilyn Smith        |  2.9   |              Engineering               |
+|          Harold Kim         |  4.3   |                Physics                 |
+|            Xu Chu           |  0.0   |            Computer Science            |
+|       Vijay Madisetti       |  2.8   |         Electrical Engineering         |
+|        Adam Steinberg       |  3.6   |         Aerospace Engineering          |
+|        Ellery Ingall        |  4.4   |             Earth Science              |
+|         Aaron Hansen        |  4.5   |            Computer Science            |
+|      Heinrich Matzinger     |  4.0   |              Mathematics               |
+|       Hassan Attarchi       |  3.7   |              Mathematics               |
+|        Colin Harrison       |  4.4   |                Biology                 |
+|       Sotira Yiacoumi       |  4.4   |           Civil Engineering            |
+|         Joseph Scott        |  4.0   |          Chemical Engineering          |
+|        Maribeth Gandy       |  4.0   |            Computer Science            |
+|          Greg Turk          |  4.5   |            Computer Science            |
+|       Jennifer Whitlow      |  4.7   |            Computer Science            |
+|         Eric Vigoda         |  4.5   |            Computer Science            |
+|           Hao Liu           |  2.7   |              Mathematics               |
+|          Sheng Dai          |  4.7   |           Civil Engineering            |
+|         Karen Feigh         |  3.4   |           Aerospace Studies            |
+|     Aleksandra Starcevic    |  5.0   |                 German                 |
+|          BeiBei Liu         |  4.0   |              Mathematics               |
+|          Yang Wang          |  3.0   |           Civil Engineering            |
+|         Donald White        |  3.0   |           Civil Engineering            |
+|        Abdul Zureick        |  3.0   |           Civil Engineering            |
+|        Lauren Stewart       |  4.7   |           Civil Engineering            |
+|      Robert Rosenberger     |  4.6   |             Public Policy              |
+|          Ian Bogost         |  2.1   |            Computer Science            |
+|    Konstantinos Arvanitis   |  2.8   |         Mechanical Engineering         |
+|        Chance McColl        |  5.0   |         Aerospace Engineering          |
+|       Nicholas Darnton      |  4.1   |                Physics                 |
+|     Jennifer Weizenecker    |  5.0   |             Public Policy              |
+|       Christian Houdre      |  1.6   |              Mathematics               |
+|       Carson Meredith       |  4.5   |          Chemical Engineering          |
+|          Bob Myers          |  1.7   |               Accounting               |
+|  Radhakrishnaiah Parachuru  |  4.8   |         Materials Engineering          |
+|         Alok Amatya         |  4.0   |                English                 |
+|        Justin Romberg       |  3.4   |         Electrical Engineering         |
+|       Keaton Fletcher       |  4.7   |               Psychology               |
+|          Aldo Ferri         |  5.0   |         Mechanical Engineering         |
+|        Jesse Sestito        |  4.0   |         Mechanical Engineering         |
+|    Nazanin Bassiri Gharb    |  3.3   |              Engineering               |
+|       Steven Biegalski      |  4.8   |          Nuclear Engineering           |
+|         Meg Grantham        |  4.1   |             Earth Science              |
+|    Christopher Muhlstein    |  4.8   |         Materials Engineering          |
+|        Young Mi Choi        |  2.3   |           Industrial Design            |
+|        Hassan Rashidi       |  3.4   |         Mechanical Engineering         |
+|        Keren BenHaim        |  3.0   |            Modern Languages            |
+|        George Thomas        |  3.2   |                English                 |
+|        Faramarz Fekri       |  1.6   |         Electrical Engineering         |
+|       Igor Belegradek       |  3.0   |              Mathematics               |
+|          Chao Zhang         |  3.2   |            Computer Science            |
+|        Brian Hrolenok       |  2.8   |            Computer Science            |
+|        Nakul Gopalan        |  1.0   |            Computer Science            |
+|        Richard Cowan        |  4.9   |         Mechanical Engineering         |
+|         Wendy Truran        |  4.7   |                English                 |
+|           Tuo Zhao          |  2.3   |         Industrial Engineering         |
+|         Joyce Medina        |  3.7   |              Architecture              |
+|       Andrew Culbreth       |  5.0   | Literature, Media, &amp; Communication |
+|         Bianca Batti        |  4.9   |                English                 |
+|        Wayne Whiteman       |  4.3   |         Mechanical Engineering         |
+|        Damon Williams       |  3.8   |         Industrial Engineering         |
+|         Suresh Menon        |  2.8   |         Aerospace Engineering          |
+|         Shijie Deng         |  2.5   |         Industrial Engineering         |
+|      Gabriel RinconMora     |  5.0   |         Electrical Engineering         |
+|          Shaolan Li         |  4.5   |         Electrical Engineering         |
+|         Boni Yraguen        |  5.0   |         Mechanical Engineering         |
+|        Kantwon Rogers       |  4.9   |            Computer Science            |
+|       Adrian Gardiner       |  2.7   |   Information Technology Management    |
+|         Richard Sapp        |  4.5   |   Information Technology Management    |
+|       Nikolay Koposov       |  5.0   |        History &amp; Sociology         |
+|          Jim Craig          |  2.0   |         Aerospace Engineering          |
+|      Cedric Stallworth      |  4.4   |            Computer Science            |
+|       Seth Hutchinson       |  4.6   |            Computer Science            |
+|        Frank Dellaert       |  2.3   |            Computer Science            |
+|          Zhiwu Lin          |  2.0   |              Mathematics               |
+|      Sigrun Andradottir     |  4.6   |         Industrial Engineering         |
+|       Ada Gavrilovska       |  3.8   |            Computer Science            |
+|       Ashutosh Dhekne       |  4.0   |            Computer Science            |
+|       Greg Blekherman       |  4.4   |              Mathematics               |
+|        Kevin Johnson        |  3.1   |         Electrical Engineering         |
+|       Tiffany Johnson       |  4.5   |               Management               |
+|          Yaofeng Su         |  5.0   |              Mathematics               |
+|        Joseph Sadighi       |  4.7   |               Chemistry                |
+|         Hyesoon Kim         |  4.2   |            Computer Science            |
+|          Jiaqi Yang         |  2.0   |              Mathematics               |
+|        Casey Wichman        |  5.0   |               Economics                |
+|         Anton Leykin        |  1.8   |              Mathematics               |
+|          Jason Wang         |  4.7   |              Engineering               |
+|        Pamela Pollet        |  4.4   |               Chemistry                |
+|         Mark Losego         |  4.5   |         Materials Engineering          |
+|        Daniel Goldman       |  2.2   |                Physics                 |
+|         Rick Trebino        |  4.1   |                Physics                 |
+|         Thomas Conte        |  3.4   |            Computer Science            |
+|        Prasad Tetali        |  4.5   |              Mathematics               |
+|          Irfan Essa         |  1.2   |            Computer Science            |
+|        Mark Davenport       |  3.0   |         Electrical Engineering         |
+|     Arijit Raychowdhury     |  4.5   |         Electrical Engineering         |
+|        Azadeh Ansari        |  3.0   |         Electrical Engineering         |
+|      Armenak Petrosyan      |  3.4   |              Mathematics               |
+|       Gokul Pathikonda      |  3.0   |         Materials Engineering          |
+|        Kelly Comfort        |  5.0   |            Modern Languages            |
+|         Tobin Isaac         |  5.0   |            Computer Science            |
+|      Lizanne Destefano      |  5.0   |               Psychology               |
+|      Raphael Rosenzweig     |  4.0   |                Biology                 |
+|       Alberto Fuentes       |  4.5   |         International Politics         |
+|        Sonia Chernova       |  4.0   |            Computer Science            |
+|     Athanassios Economou    |  0.0   |              Architecture              |
+|            Jun Xu           |  3.5   |            Computer Science            |
+|         Scott Moffat        |  5.0   |               Psychology               |
+|         Devi Parikh         |  0.0   |            Computer Science            |
+|        Laura Huffman        |  5.0   |             Public Policy              |
+|         Parisa Zowj         |  4.0   |         Industrial Engineering         |
+|          James Rehg         |  4.7   |            Computer Science            |
+|         Nolan Hertel        |  4.0   |          Nuclear Engineering           |
+|          Luca Dieci         |  3.4   |              Mathematics               |
+|         John Stasko         |  4.7   |            Computer Science            |
+|         Gary Lavigne        |  5.0   |              Mathematics               |
+|        Robert Dickson       |  3.1   |               Chemistry                |
+|     Guillermo Goldsztein    |  3.4   |              Mathematics               |
+|       Daniel Amsterdam      |  4.8   |                History                 |
+|       Joseph Lachance       |  5.0   |                Biology                 |
+|         Joshua Cohen        |  5.0   |                English                 |
+|        Mawutor Amanfu       |  4.5   |              Mathematics               |
+|         Robert Foley        |  3.9   |         Industrial Engineering         |
+|          James Wray         |  4.8   |                Science                 |
+|       Michael Messner       |  1.0   |               Management               |
+|         Peter Yunker        |  4.6   |                Physics                 |
+|        Jacob Blevins        |  4.5   |         Mechanical Engineering         |
+|       Amanda Stockton       |  4.5   |               Chemistry                |
+|          Shana Kerr         |  3.3   |                Biology                 |
+|        Aki Matsushima       |  4.7   |                Japanese                |
+|        Michael Leamy        |  4.2   |         Mechanical Engineering         |
+|          Han Huang          |  5.0   |              Mathematics               |
+|       Anton Bernshteyn      |  4.3   |              Mathematics               |
+|         Joshua Wells        |  1.4   |         Electrical Engineering         |
+|          Kevin Haas         |  5.0   |           Civil Engineering            |
+|        Marc Harkonen        |  5.0   |              Mathematics               |
+|            Lee Oh           |  5.0   |                 Korean                 |
+|        Surena Hozoori       |  3.6   |              Mathematics               |
+|          Neha Kumar         |  3.6   |         International Politics         |
+|          Jason Rich         |  4.3   |           Political Science            |
+|          KuenDa Lin         |  4.7   |         International Politics         |
+|        John Browning        |  4.2   |                English                 |
+|           Dong Liu          |  4.7   |               Management               |
+|        Brian Woodall        |  4.7   |         International Politics         |
+|           Kim Cobb          |  2.7   |             Earth Science              |
+|      Fariborz Farahmand     |  2.6   |              Engineering               |
+|         David Reeves        |  0.0   |             Public Policy              |
+|       Richard Simmons       |  5.0   |         Mechanical Engineering         |
+|        Frederic Bien        |  1.7   |               Management               |
+|       Marco Ceccagnoli      |  4.0   |               Management               |
+|       Michael Dutcher       |  5.0   |               Management               |
+|         Sarah Barnes        |  5.0   |        History &amp; Sociology         |
+|         Bryan Watson        |  5.0   |         Mechanical Engineering         |
+|          Shuman Xia         |  4.5   |         Mechanical Engineering         |
+|        Doron Lubinsky       |  4.5   |              Mathematics               |
+|    Christopher Jankowski    |  4.6   |              Mathematics               |
+|        Martina Balic        |  3.0   |           Civil Engineering            |
+|         Mary Elliott        |  4.6   |                English                 |
+|      Elizaveta Gonchar      |  4.7   |               Economics                |
+|        Dina Khapaeva        |  4.0   |               Literature               |
+|         Philip Benge        |  4.1   |              Mathematics               |
+|       Hallie Lieberman      |  4.5   | Literature, Media, &amp; Communication |
+|         Carla Gerona        |  3.5   |                History                 |
+|        Carrie Shepler       |  4.8   |               Chemistry                |
+|         Chris Taylor        |  2.7   |            Computer Science            |
+|        Edgar Lightsey       |  3.5   |         Aerospace Engineering          |
+|         John Taylor         |  5.0   | Literature, Media, &amp; Communication |
+|         IHsiang Lee         |  4.2   |         Industrial Engineering         |
+|       Samantha Wilson       |  4.6   |             Earth Science              |
+|          Manu Platt         |  3.4   |         Biomedical Engineering         |
+|       Philippe Bonneau      |  0.0   |              Mathematics               |
+|       Christopher Heil      |  4.3   |              Mathematics               |
+|   Umakishore Ramachandran   |  4.2   |            Computer Science            |
+|      Abhijit Chatterjee     |  2.6   |         Electrical Engineering         |
+|        Osvaldo Cleger       |  3.9   |                Spanish                 |
+|        Wesley Wynens        |  3.5   |           Leadership Studies           |
+|          Jan Youtie         |  4.0   |             Public Policy              |
+|        Aaron Santesso       |  4.6   |               Literature               |
+|         Dana Viezure        |  4.0   |                History                 |
+|      Facundo Fernandez      |  5.0   |               Chemistry                |
+|       Frank Rosenzweig      |  5.0   |                Biology                 |
+|       Patrick McGrath       |  3.7   |                Biology                 |
+|       Laurence Jacobs       |  0.0   |           Civil Engineering            |
+|          Dalton Lin         |  4.6   |         International Politics         |
+|        Russell Dupuis       |  3.0   |         Electrical Engineering         |
+|           Cong Hao          |  0.0   |         Electrical Engineering         |
+|       Seyed Ghiaasiaan      |  2.8   |         Mechanical Engineering         |
+|        Yonathan Thio        |  4.2   |              Engineering               |
+|         Plamen Iliev        |  3.4   |              Mathematics               |
+|        Andrew Medford       |  5.0   |          Chemical Engineering          |
+|         Lionel Gall         |  4.8   |                 French                 |
+|         Corey Wilson        |  2.0   |          Chemical Engineering          |
+|         David Harper        |  4.3   |              Mathematics               |
+|          Roger Jiao         |  4.0   |         Mechanical Engineering         |
+|      Michael Varenberg      |  3.8   |         Mechanical Engineering         |
+|          Chris Lai          |  1.0   |           Civil Engineering            |
+|          Ali Adibi          |  3.9   |         Electrical Engineering         |
+|          Zsolt Kira         |  1.7   |            Computer Science            |
+|       Chrissy Spencer       |  3.6   |                Biology                 |
+|        Jeffrey Wilson       |  3.0   |            Computer Science            |
+|         Srijan Kumar        |  5.0   |            Computer Science            |
+|     Munmun De Choudhury     |  3.6   |            Computer Science            |
+|         Michael Lowe        |  4.1   |               Management               |
+|            Anh Le           |  0.0   |               Chemistry                |
+|      Srinivas Garimella     |  3.9   |         Mechanical Engineering         |
+|         GP Peterson         |  2.0   |         Mechanical Engineering         |
+|       Alex Blumenthal       |  4.6   |              Mathematics               |
+|        Hyunshik Shin        |  4.4   |              Mathematics               |
+|        Andrew Salyer        |  5.0   |                English                 |
+|          Joel Sokol         |  3.3   |               Statistics               |
+|      Usha NairReichert      |  3.4   |               Economics                |
+|       James Mulholland      |  3.0   |           Civil Engineering            |
+|         Maria Konte         |  2.8   |            Computer Science            |
+|       Jeffrey Borowitz      |  4.5   |   Information Technology Management    |
+|      Rachel SeilerSmith     |  4.0   |                English                 |
+|        Phillip First        |  4.0   |                Physics                 |
+|        Nakia Melecio        |  0.0   |           Leadership Studies           |
+|         Nader Sadegh        |  3.0   |         Mechanical Engineering         |
+|       Jonathan Colton       |  2.8   |              Engineering               |
+|        Nicole Redder        |  0.0   |         Industrial Engineering         |
+|        Amanda Girard        |  1.3   | Literature, Media, &amp; Communication |
+|       Yousef Bushehri       |  4.0   |              Architecture              |
+|       Danielle Gilman       |  4.8   |                English                 |
+|       Christie Stewart      |  4.0   |             Health Science             |
+|        Julia Babensee       |  1.0   |         Biomedical Engineering         |
+|          Zhiyu Wang         |  3.0   |              Mathematics               |
+|      Mohan Srinivasarao     |  2.3   |         Materials Engineering          |
+|        Rallming Yang        |  5.0   |          Chemical Engineering          |
+|       Victor Breedveld      |  4.3   |          Chemical Engineering          |
+|         Wenting Sun         |  4.3   |         Aerospace Engineering          |
+|        Joyelle Harris       |  3.0   |         Electrical Engineering         |
+|       Liu Maggie Xiao       |  5.0   |              Mathematics               |
+|      Joseph Goldenburg      |  1.0   |         Electrical Engineering         |
+|     Kimberly Schurmeier     |  4.2   |               Chemistry                |
+|          Karl Jacob         |  4.3   |              Engineering               |
+|       Denis Dorozhkin       |  4.5   |         Mechanical Engineering         |
+|       Francois Guillot      |  4.7   |         Mechanical Engineering         |
+|          Seung Lee          |  3.0   |         Mechanical Engineering         |
+|         Ronghua Pan         |  3.1   |              Mathematics               |
+|        Lesley Baradel       |  4.4   |             Health Science             |
+|           Jun Ueda          |  3.6   |         Mechanical Engineering         |
+|        Jeffrey Fallis       |  3.7   |                English                 |
+|      Adegboyega Oyelere     |  4.1   |               Chemistry                |
+|         Frank Clark         |  4.0   |                 Music                  |
+|         David Shook         |  4.6   |                Spanish                 |
+|        Doug Flamming        |  4.8   |                History                 |
+|        Dianne Leader        |  3.8   |               Psychology               |
+|     Christina Giannitsi     |  4.7   |              Mathematics               |
+|         Joshua Gray         |  3.0   |         Industrial Engineering         |
+|        Wendell Wilson       |  3.5   |           Industrial Design            |
+|          Mary Peek          |  3.3   |               Chemistry                |
+|        Anton Kleywegt       |  1.8   |         Industrial Engineering         |
+|         John Taylor         |  4.6   |                English                 |
+|        Peter Hesketh        |  3.5   |         Mechanical Engineering         |
+|      Olufisayo Omojokun     |  3.8   |            Computer Science            |
+|          John Barry         |  3.7   |         Electrical Engineering         |
+|          Eric Marks         |  5.0   |           Civil Engineering            |
+|            MO LI            |  2.5   |         Materials Engineering          |
+|        Raghuram Pucha       |  3.6   |         Mechanical Engineering         |
+|        William Howitz       |  5.0   |               Chemistry                |
+|     Constantine Dovrolis    |  3.5   |            Computer Science            |
+|        Jerry Seitzman       |  4.5   |         Aerospace Engineering          |
+|        Sonia Serafin        |  4.7   |                 French                 |
+|     Christos Alexopoulos    |  3.2   |         Industrial Engineering         |
+|         Reuben Tate         |  3.7   |              Mathematics               |
+|      Christopher Reeves     |  3.0   |           Political Science            |
+|     William Bill Winders    |  4.1   |        History &amp; Sociology         |
+|         Jill Fennell        |  5.0   |                English                 |
+|          Qiliang He         |  0.0   |               Psychology               |
+|        Hannah Markley       |  4.4   |                English                 |
+|         McKenna Rose        |  5.0   |                English                 |
+|        Siddhi Krishna       |  2.8   |              Mathematics               |
+|           Yui Kim           |  3.5   |               Management               |
+|        James Anderson       |  3.0   |              Mathematics               |
+|        Robert Speyer        |  3.9   |         Materials Engineering          |
+|         Chirag Patel        |  0.0   |         Aerospace Engineering          |
+|      George Kardomateas     |  3.3   |              Engineering               |
+|        Mohammad Ghomi       |  0.0   |              Mathematics               |
+|       Martin Jacobson       |  5.0   |         Biomedical Engineering         |
+|      Angelos Keromytis      |  0.0   |         Electrical Engineering         |
+|      Natalie Stingelin      |  1.7   |         Materials Engineering          |
+|         Joseph Saleh        |  4.8   |         Aerospace Engineering          |
+|        Matthew Oliver       |  4.2   |               Economics                |
+|         Mary Spirou         |  0.0   |               Management               |
+|         Jacob Danzig        |  1.0   |         Mechanical Engineering         |
+|           Yao Xie           |  4.6   |         Industrial Engineering         |
+|       Patrick Fiorilli      |  0.0   |      English amp Liberal Studies       |
+|     Mark Zachary Taylor     |  4.0   |           Political Science            |
+|        Tobin Abraham        |  5.0   |           Cognitive Science            |
+|         Aibek Musaev        |  2.5   |            Computer Science            |
+|      Richard Dagenhart      |  4.2   |              Architecture              |
+|        Julie Champion       |  3.8   |          Chemical Engineering          |
+|        Hayriye Ayhan        |  4.4   |         Industrial Engineering         |
+|       Elena Antoniadou      |  2.0   |               Economics                |
+|        Ruth Poproski        |  2.8   |               Technology               |
+|        Faisal Alamgir       |  3.8   |         Materials Engineering          |
+|          Paul Russo         |  2.7   |         Materials Engineering          |
+|        David Torello        |  3.9   |         Mechanical Engineering         |
+|         Juan Rogers         |  2.2   |             Public Policy              |
+|        Miriam Kuzbary       |  4.8   |              Mathematics               |
+|         Erik Johnson        |  5.0   |               Economics                |
+|        Sagnika Chanda       |  0.0   |     English &amp; Liberal Studies      |
+|        Taylor Shapero       |  0.0   |         Materials Engineering          |
+|         Shane Snyder        |  4.5   |                English                 |
+|        Gregory Mayer        |  4.1   |              Mathematics               |
+|     Panagiotis Tsiotras     |  3.0   |         Aerospace Engineering          |
+|       Austin Christian      |  0.0   |              Mathematics               |
+|         David Joyner        |  4.6   |            Computer Science            |
+|         Ronald Bayor        |  0.0   |        History &amp; Sociology         |
+|          Brian Beck         |  3.8   |         Electrical Engineering         |
+|        Robert Thomas        |  4.3   |               Management               |
+|         Adam Decker         |  4.3   |             Health Science             |
+|         Alex Endert         |  3.0   |            Computer Science            |
+|      Leonid Bunimovich      |  1.4   |              Mathematics               |
+|         Satish Kumar        |  3.5   |         Materials Engineering          |
+|        HsaioWen Liao        |  2.0   |               Psychology               |
+|      Archana Ghodeswar      |  4.7   |               Economics                |
+|         Erik Johnson        |  4.7   |           Leadership Studies           |
+|         Daniel Cruz         |  3.0   |              Mathematics               |
+|          Jason Rich         |  5.0   |             Public Policy              |
+|         Judy Hoffman        |  4.7   |            Computer Science            |
+|         Nicholas Hud        |  2.0   |               Chemistry                |
+|          Polo Chau          |  1.0   |            Computer Science            |
+|         Molly Slavin        |  4.6   |                English                 |
+|        Elyse Carlson        |  3.4   |               Psychology               |
+|           John Dec          |  3.0   |         Aerospace Engineering          |
+|         Ellen Zegura        |  1.8   |            Computer Science            |
+|       Blair Brettmann       |  1.0   |         Materials Engineering          |
+|         Annie Anton         |  3.0   |            Computer Science            |
+|       Andrew Zangwill       |  3.0   |                Physics                 |
+|      Aselia Urmanbetova     |  3.8   |               Economics                |
+|         Barry Goodno        |  3.5   |              Engineering               |
+|       Klara Grodzinsky      |  4.8   |              Mathematics               |
+|        Lucien Dhooge        |  4.5   |               Management               |
+|         Bilal Haider        |  0.0   |         Biomedical Engineering         |
+|         James Sowell        |  4.6   |                Physics                 |
+|      Frederick Pearsall     |  3.2   |              Architecture              |
+|          Mark Moss          |  4.5   |            Computer Science            |
+|        Rebecca George       |  4.5   |              Mathematics               |
+|         Albert Fathi        |  1.9   |              Mathematics               |
+|      Elizabeth Disalvo      |  0.0   |            Computer Science            |
+|         Julia Tigner        |  3.0   |                English                 |
+|          Shimeng Yu         |  4.0   |         Electrical Engineering         |
+|       Eric Schumacher       |  3.9   |               Psychology               |
+|       Suchismita Dutta      |  5.0   | Literature, Media, &amp; Communication |
+|       Arnold Schneider      |  3.1   |               Accounting               |
+|        Mayuresh Patil       |  0.0   |         Aerospace Engineering          |
+|        Kendra Slayton       |  4.8   |                English                 |
+|       Zachary Handlos       |  4.3   |             Earth Science              |
+|        Kent Linthicum       |  4.4   |                English                 |
+|        Benjamin Jaye        |  4.0   |              Mathematics               |
+|      Debankur Mukherjee     |  4.2   |         Industrial Engineering         |
+|         David Smith         |  3.5   |         Mechanical Engineering         |
+|         Tuba Ketenci        |  1.9   |         Industrial Engineering         |
+|       Timothy Stoneman      |  2.5   |                History                 |
+|         Eric Murray         |  3.4   |                Science                 |
+|         Matthew Hild        |  4.2   |                History                 |
+|         Rosa Arriaga        |  2.8   |               Psychology               |
+|        Jeffery Hurley       |  5.0   |         Electrical Engineering         |
+|          Lizhen XU          |  4.2   |               Management               |
+|        George Burdell       |  5.0   |              Engineering               |
+|      Emily AliceaMunoz      |  5.0   |                Physics                 |
+|     Malgorzata Ilkowska     |  1.6   |               Psychology               |
+|           Hwi Lee           |  4.0   |              Mathematics               |
+|       Koushyar Rajavi       |  5.0   |               Management               |
+|         Arash Yavari        |  2.9   |           Civil Engineering            |
+|        Jechiel Jagoda       |  3.5   |         Aerospace Engineering          |
+|          Alan Flury         |  2.4   |               Management               |
+|        Adele Douglin        |  3.1   |            Modern Languages            |
+|         Robert Wood         |  2.3   |                English                 |
+|         Xu Andy Sun         |  3.4   |         Industrial Engineering         |
+|       Michelle Laplaca      |  1.9   |         Biomedical Engineering         |
+|         Wenjing Liao        |  4.8   |              Mathematics               |
+|          Levi Wood          |  4.3   |         Mechanical Engineering         |
+|       Kelly Griendling      |  4.8   |         Aerospace Engineering          |
+|       Hamid Garmestani      |  3.9   |              Engineering               |
+|      Harish Ravichandar     |  4.0   |            Computer Science            |
+|      Michael Goodisman      |  1.5   |                Biology                 |
+|      Frederic Faulkner      |  2.3   |            Computer Science            |
+|          Eugene Kim         |  3.1   |               Management               |
+|         Mike Lehman         |  0.0   |                English                 |
+|       Antonia Antoniou      |  3.1   |         Mechanical Engineering         |
+|        Erik Verriest        |  2.2   |         Electrical Engineering         |
+|        Donald Webster       |  4.5   |           Civil Engineering            |
+|         Greg Bodwin         |  5.0   |            Computer Science            |
+|           Ye Zhao           |  3.7   |         Mechanical Engineering         |
+|       Mark Styczynski       |  4.5   |          Chemical Engineering          |
+|         Barry Branch        |  4.0   |               Management               |
+|    Pascal Van Hentenryck    |  0.0   |         Industrial Engineering         |
+|        Nick Sahinidis       |  0.0   |         Industrial Engineering         |
+|        Corey Goergen        |  3.7   |                English                 |
+|       Blair Macintyre       |  3.0   |            Computer Science            |
+|         Emily Weigel        |  4.2   |                Biology                 |
+|         Harry Sharp         |  5.0   |               Statistics               |
+|        Zachary Tidler       |  5.0   |               Psychology               |
+|     Rebecca Beki Grinter    |  5.0   |            Computer Science            |
+|         Marc K Smith        |  3.5   |         Mechanical Engineering         |
+|       J Brandon Dixon       |  3.9   |         Mechanical Engineering         |
+|          Calton PU          |  2.9   |            Computer Science            |
+|        Stephen Diggle       |  5.0   |                Biology                 |
+|           Fei Ding          |  5.0   |            Computer Science            |
+|          Mark Smith         |  1.0   |                Physics                 |
+|           M G Finn          |  3.8   |               Chemistry                |
+|        James Blumling       |  5.0   |         Biomedical Engineering         |
+|        Davis Jeffrey        |  3.0   |         Electrical Engineering         |
+|         Theresa Snow        |  3.0   |             Health Science             |
+|         Xu Yan Chen         |  3.0   |              Mathematics               |
+|          Paul Kohl          |  3.3   |          Chemical Engineering          |
+|          Osman Dai          |  5.0   |         Industrial Engineering         |
+|         Yongtaek Kim        |  3.2   |                 Korean                 |
+|       John F McDonald       |  3.4   |                Biology                 |
+|     Christine E Heitsch     |  2.4   |              Mathematics               |
+|        Martin Jarrio        |  3.8   |                Physics                 |
+|        Marc Weissburg       |  2.0   |                Biology                 |
+|    Kostas Konstantinidis    |  1.7   |           Civil Engineering            |
+|         Dylan Brewer        |  3.9   |               Economics                |
+|          Cheng Mao          |  4.2   |              Mathematics               |
+|       Michael Hoffmann      |  3.3   |             Public Policy              |
+|       Arnold Rubinoff       |  4.6   |               Management               |
+|      Jacqueline Garner      |  5.0   |               Management               |
+|      Tatiana Rudchenko      |  4.1   |               Management               |
+|       Mahdi Roozbahani      |  3.3   |            Computer Science            |
+|       Valerie Johnson       |  2.4   |                English                 |
+|       Kimberly French       |  4.5   |               Psychology               |
+|        Claudio Di Leo       |  4.2   |         Aerospace Engineering          |
+|           Samba Sy          |  4.3   |                 French                 |
+|         Jennifer Hom        |  4.4   |              Mathematics               |
+|        Andrzej Swiech       |  2.9   |              Mathematics               |
+|           Chao Li           |  3.7   |                Chinese                 |
+|       Rachel Robinson       |  0.0   |                English                 |
+|        Hannah Turner        |  0.0   |              Mathematics               |
+|         Lelia Glass         |  4.3   |              Linguistics               |
+|       Joshua Schroeder      |  4.0   |              Mathematics               |
+|          Carol Senf         |  4.0   |     English &amp; Liberal Studies      |
+|        Joseph Montoya       |  3.6   |                Biology                 |
+|         Ryan Blunck         |  4.3   |               Accounting               |
+|        Meghan Babcock       |  5.0   |               Psychology               |
+|         Yorai Wardi         |  4.0   |         Electrical Engineering         |
+|     Suneesh Karunakaran     |  0.0   |               Chemistry                |
+|       Katarzyna Rupar       |  4.7   |               Accounting               |
+|         Edwin Greco         |  3.9   |                Physics                 |
+|      Roshan Vengazhiyil     |  2.7   |         Industrial Engineering         |
+|        Flavio Fenton        |  4.8   |                Physics                 |
+|         Dan Margalit        |  4.6   |              Mathematics               |
+|         Linda Wills         |  4.6   |         Electrical Engineering         |
+|         Morris Cohen        |  3.7   |         Electrical Engineering         |
+|        Thomas Collins       |  2.6   |              Engineering               |
+|     Gamze TokolGoldsman     |  1.5   |         Industrial Engineering         |
+|         ChinHui Lee         |  2.5   |         Electrical Engineering         |
+|      Maxwell Rosenthal      |  3.7   |               Economics                |
+|         Kevin Kordek        |  3.3   |              Mathematics               |
+|         Francis Fish        |  1.5   |         Mechanical Engineering         |
+|        Roxanne Moore        |  0.0   |         Mechanical Engineering         |
+|       Cassie Mitchell       |  3.0   |         Biomedical Engineering         |
+|        Tushar Krishna       |  3.0   |         Electrical Engineering         |
+|          John Vate          |  1.7   |         Industrial Engineering         |
+|       Jonathan Simone       |  5.0   |              Mathematics               |
+|       Olivier Pierron       |  4.4   |         Mechanical Engineering         |
+|         Steven Liang        |  2.4   |         Mechanical Engineering         |
+|       Salvador Barone       |  4.2   |              Mathematics               |
+|        David Cleeton        |  1.0   |               Economics                |
+|        Deborah Turner       |  4.7   |               Management               |
+|         Katie Badura        |  5.0   |               Management               |
+|          James Wenk         |  2.5   |              Mathematics               |
+|         Ron Johnson         |  3.2   |         Industrial Engineering         |
+|      Santiago Grijalva      |  3.7   |         Electrical Engineering         |
+|       Edward Botchwey       |  1.7   |         Biomedical Engineering         |
+|       Alperen Ozdemir       |  2.0   |              Mathematics               |
+|       Shamkant Navathe      |  2.2   |            Computer Science            |
+|    Christopher Stanzione    |  4.1   |               Psychology               |
+|    Aleksander Sedzielarz    |  4.8   |                English                 |
+|    JuanPablo CorreaBaena    |  1.8   |         Materials Engineering          |
+|         Craig Tovey         |  2.2   |         Industrial Engineering         |
+|    Victor Vilaça Da Rocha   |  3.6   |              Mathematics               |
+|        Francis Ulgado       |  1.9   |               Management               |
+|        John Reynolds        |  2.2   |               Chemistry                |
+|     Mary HudachekBuswell    |  3.2   |            Computer Science            |
+|         Todd Michney        |  3.5   |                History                 |
+|         Sung Kyu Lim        |  4.2   |              Engineering               |
+|        Enid Steinbart       |  3.5   |              Mathematics               |
+|        Stefan France        |  3.2   |               Chemistry                |
+|        James Hamblen        |  3.6   |         Electrical Engineering         |
+|       Raquel Lieberman      |  2.4   |               Chemistry                |
+|           Zhou Hao          |  1.0   |              Mathematics               |
+|        Tracey Swartz        |  1.8   |               Management               |
+|         Edward Timko        |  1.5   |              Mathematics               |
+|          Neha Gupta         |  4.5   |              Mathematics               |
+|       Nikki MacKenzie       |  3.1   |               Accounting               |
+|       David Muchlinski      |  0.0   |         International Politics         |
+|          Hans Klein         |  3.8   |             Public Policy              |
+|        Zhuomin Zhang        |  4.5   |         Mechanical Engineering         |
+|        Vincent Taupin       |  4.7   |         Mechanical Engineering         |
+|      Alexandre Locquet      |  3.0   |              Mathematics               |
+|        Julian Rimoli        |  3.7   |         Aerospace Engineering          |
+|        Ronnie Howard        |  5.0   |            Computer Science            |
+|        Michael Evans        |  2.8   |               Chemistry                |
+|         Eric Murray         |  2.3   |                Physics                 |
+|      Clifford Henderson     |  1.5   |          Chemical Engineering          |
+|       Nicoleta Serban       |  2.5   |         Industrial Engineering         |
+|         Turab Zaidi         |  4.1   |         Aerospace Engineering          |
+|        David Sherrill       |  4.4   |               Chemistry                |
+|         Hongyuan Zha        |  0.0   |            Computer Science            |
+|          Vigor Yang         |  3.7   |         Aerospace Engineering          |
+|         Jane Thayer         |  3.7   |               Management               |
+|         Diana Hicks         |  2.5   |             Public Policy              |
+|        Cheryl Leggon        |  3.3   |             Public Policy              |
+|        Gerandy Brito        |  3.9   |              Mathematics               |
+|  Susan Suzy WatsonPhillips  |  1.7   |            Computer Science            |
+|         Alan Ritter         |  1.6   |            Computer Science            |
+|           Wing LI           |  2.6   |              Mathematics               |
+|          Mark Riedl         |  4.3   |            Computer Science            |
+|       Michael Buchanan      |  4.2   |               Management               |
+|       Satyajit Karnik       |  5.0   |               Management               |
+|        Caleb Southern       |  4.0   |            Computer Science            |
+|          Tim Martin         |  4.7   |               Management               |
+|       Orli Herscovici       |  1.3   |              Mathematics               |
+|         Ernest Croot        |  2.6   |              Mathematics               |
+|          Anu Thapa          |  1.5   |                English                 |
+|    Nivedita Bhattacharya    |  4.9   |         Electrical Engineering         |
+|         Hongyi Zhou         |  4.0   |              Mathematics               |
+|        Julia Melkers        |  3.5   |           Political Science            |
+|         Teresa Snow         |  3.5   |             Health Science             |
+|        Shahaf Nitzan        |  3.6   |              Mathematics               |
+|          Eric Lewis         |  4.8   |                English                 |
+|       Melinda McDaniel      |  3.6   |            Computer Science            |
++-----------------------------+--------+----------------------------------------+
